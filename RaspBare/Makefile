@@ -1,4 +1,4 @@
-CROSS = arm-none-eabi
+CROSS = gcc-arm-embedded
 GCCVER = 15.1.0
 GCCROOT = /usr/local/Cellar/arm-none-eabi-gcc/$(GCCVER)
 

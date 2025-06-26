@@ -16,10 +16,10 @@ int main(void) {
     while (1) {
         // turn on
         GPIO_OUT |= (1 << LED_PIN);
-        delay(1000000);
+        delay(10000);
 
         // turn off
         GPIO_OUT &= ~(1 << LED_PIN);
-        delay(1000000);
+        delay(300000);
     }
 }

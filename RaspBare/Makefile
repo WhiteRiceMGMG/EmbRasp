@@ -1,29 +1,52 @@
-CROSS = gcc-arm-embedded
-GCCVER = 15.1.0
-GCCROOT = /usr/local/Cellar/arm-none-eabi-gcc/$(GCCVER)
+# ----------------------------
+# Makefile for ARM Cortex-M0 + UF2
+# ----------------------------
 
-CFLAGS = -mcpu=cortex-m0 -mthumb -nostdlib -Wall -Os \
-  -I/usr/local/Cellar/arm-none-eabi-gcc/15.1.0/lib/gcc/arm-none-eabi/15.1.0/include \
-  -I/usr/local/Cellar/arm-none-eabi-gcc/15.1.0/lib/gcc/arm-none-eabi/15.1.0/include-fixed
+# ツールチェーンプレフィックス
+CROSS ?= arm-none-eabi
 
+# sysroot を自動検出（gcc ドライバが返すルートパス）
+SYSROOT := $(shell $(CROSS)-gcc --print-sysroot)
 
+# コンパイルフラグ
+# -ffunction-sections/fdata-sections で関数/データ毎に独立セクションに分離
+CFLAGS  := -mcpu=cortex-m0 -mthumb -Os -Wall -nostdlib \
+			-ffunction-sections -fdata-sections \
+			--sysroot=$(SYSROOT)
 
-all: main.uf2
+# リンクフラグ
+# -Wl,--gc-sections で未参照セクションを削除
+LDFLAGS := -T link.ld -Wl,--gc-sections \
+			--sysroot=$(SYSROOT)
 
-main.elf: startup.o main.o
-	$(CROSS)-ld -T link.ld startup.o main.o -o main.elf
+# ターゲット名
+TARGET := main
 
+# デフォルト
+all: $(TARGET).uf2
+
+# 1) ELF生成
+$(TARGET).elf: startup.o main.o
+	$(CROSS)-gcc $(CFLAGS) $^ $(LDFLAGS) -o $@
+
+# 2) Cソースをコンパイル
 main.o: main.c
-	$(CROSS)-gcc $(CFLAGS) -c main.c -o main.o
+	$(CROSS)-gcc $(CFLAGS) -c $< -o $@
 
+# 3) ASMソースをコンパイル
 startup.o: startup.S
-	$(CROSS)-gcc $(CFLAGS) -c startup.S -o startup.o
+	$(CROSS)-gcc $(CFLAGS) -c $< -o $@
 
-main.bin: main.elf
-	$(CROSS)-objcopy -O binary main.elf main.bin
+# 4) ELF→BIN
+$(TARGET).bin: $(TARGET).elf
+	$(CROSS)-objcopy -O binary $< $@
 
-main.uf2: main.bin
-	python3 uf2conv.py main.bin -c -b 0x10000000 -o main.uf2
+# 5) BIN→UF2
+$(TARGET).uf2: $(TARGET).bin
+	python3 uf2conv.py $< -c -b 0x10000000 -o $@
 
+# 掃除
 clean:
 	rm -f *.o *.elf *.bin *.uf2
+
+.PHONY: all clean

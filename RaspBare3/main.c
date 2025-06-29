@@ -8,9 +8,9 @@ int main(void) {
 
 	while(1) {
 		gpio_write(pin, 1);
-		sleep(1);
+		usleep(50000);
 		gpio_write(pin, 0);
-		sleep(1);
+		usleep(50000);
 	}
 	return 0;
 }

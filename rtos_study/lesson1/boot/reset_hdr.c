@@ -2,11 +2,11 @@
 #include <KedSysDef.h>
 #include <KedSysLib.h>
 #include <KedKernelDef.h>
-extern const void *_data_org;
-extern const void *_data_start;
-extern const void *_data_end;
-extern const void *_bss_start;
-extern const void *_bss_end;
+extern const void *__data_org;
+extern const void *__data_start;
+extern const void *__data_end;
+extern const void *__bss_start;
+extern const void *__bss_end;
 #define XOSC_STARTUP_DELAY	((XOSC_KHz + 128) / 256)
 
 /* PLLの初期化 */

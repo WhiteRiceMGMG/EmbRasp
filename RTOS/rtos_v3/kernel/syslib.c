@@ -19,11 +19,15 @@ void tm_com_init(void)
 
 
 /* デバッグ用UART出力 */
-
+/*文字列を一文字ずつUART送信する関数*/
 UINT tm_putstring(char* str)
 {
     UINT	cnt = 0;
 
+    /**strがNULLでない限りループ．
+     * UARTx_FRフラグレジスタを読んで，TXFF(送信FIFOが満杯)をチェック
+     * UARTx_DRデータレジスタに一文字書き込む
+     */
     while(*str) {
         while((in_w(UART0_BASE+UARTx_FR) & UART_FR_TXFF)!= 0);  /* 送信FIFOの空き待ち */
         out_w(UART0_BASE+UARTx_DR, *str++);                     /* データ送信 */
@@ -31,3 +35,7 @@ UINT tm_putstring(char* str)
     }
     return cnt;
 }
+
+/*システムクロックが48MHZ，UARTクロックが3MHZなら
+UARTボーレート計算式
+*/

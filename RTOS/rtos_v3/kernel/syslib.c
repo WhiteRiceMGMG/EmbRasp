@@ -3,6 +3,7 @@
  *      システムライブラリ 
  * UART初期化と文字列送信関数
  * UART0を初期化して，文字列を送信できるようにするシステムライブラリ
+ * これは退けてもいいかも
 */
 #include <trykernel.h>
 #include <knldef.h>

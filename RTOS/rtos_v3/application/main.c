@@ -12,6 +12,9 @@ static void delay_ms( UINT ms)
     }
 }
 
+
+//メインループの中でアプリケーションとインプットとアウトプットを呼べるようにしたい．
+
 int main(void)
 {
     tm_com_init();                      /* デバッグ出力の初期化 */

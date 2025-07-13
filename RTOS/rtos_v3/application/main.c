@@ -13,6 +13,7 @@ static void delay_ms( UINT ms)
 }
 
 
+
 //メインループの中でアプリケーションとインプットとアウトプットを呼べるようにしたい．
 
 int main(void)

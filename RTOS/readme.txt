@@ -26,3 +26,46 @@
 　1.5　方針
 　　とりあえず入力抽象化，インテリジェンス，出力抽象化を作る．
 　　フラグとかの仕組みがまだわからないので，みてみる．
+
+
+
+
+
+
+　2.1　方針
+　　Application InputAbst OutputAbstを用意する．
+　　MAINLOOPの中でTme_Sysc()のような関数で1msを数え上げる
+　　　→グローバルのカウンターを作り，それを参照して1msまで待つ．
+　　TmeDriverを作り，関数ポインタ構造体を作ってオブジェクトっぽく書く．
+
+
+  |--|--main (1ms感覚でWair,App,Inp,Oup,Outを実行)
+  |  |--EventFlag (入出力のフラグ定義)
+  |  |--Mode(風量や電源などのモードを想定)
+  |
+  |
+  |--|--Application(インテリジェンスを持たせる)
+  |  |--InputAbstract (入力デバイスのイベント管理)
+  |  |--OutputAbstract (出力デバイスのイベント管理)
+  |
+  |
+  |--F_includes(入出力デバイスの定義)
+  |
+  |--F_Driver (ドライブ作成，抽象化)
+
+  Application Non-StaticなApp_iFlagとApp_oFlagを作成，
+  　　　　　　　Input，Outputとの仮想的共有レジスタ．
+  　　　　　　　Driverなどで抽象化して書ける環境構築
+
+  InputAbst，OutPut インテリジェンスを持たず，レジスタの操作のみ
+
+  EventFlag 構造体
+      struct {
+        uint16_t eventFlag; 
+        uint16_t subEventFlag;
+      }
+    event = Button192,などでデバイスの指定をする
+    subEvent = GPIO17セットなど，デバイスの動きを制御
+  ・setEvent(使うデバイスのビットを立てる，サブイベント指定)
+  ・checkEvent(使うデバイスののフラグ判定，サブイベントはいらない)　など．
+  

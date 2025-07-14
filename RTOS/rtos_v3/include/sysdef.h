@@ -59,7 +59,7 @@
 
 /* Reset Controler */
 #define RESETS_BASE             0x4000C000                  /*リセットコントローラのベースアドレス*/
-#define RESETS_RESET            (RESETS_BASE+0x0)           /**/
+#define RESETS_RESET            (RESETS_BASE+0x0)           /*各モジュールをリセットするためのレジスタ*/
 #define RESETS_WDSEL            (RESETS_BASE+0x4)           /**/
 #define RESETS_RESET_DONE       (RESETS_BASE+0x8)           /**/
 

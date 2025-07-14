@@ -58,10 +58,10 @@
 #define CLK_KIND_RTC            9                           /*リアルタイムようクロック，時刻を計測する用途のクロック*/
 
 /* Reset Controler */
-#define RESETS_BASE             0x4000C000
-#define RESETS_RESET            (RESETS_BASE+0x0)
-#define RESETS_WDSEL            (RESETS_BASE+0x4)
-#define RESETS_RESET_DONE       (RESETS_BASE+0x8)
+#define RESETS_BASE             0x4000C000                  /*リセットコントローラのベースアドレス*/
+#define RESETS_RESET            (RESETS_BASE+0x0)           /**/
+#define RESETS_WDSEL            (RESETS_BASE+0x4)           /**/
+#define RESETS_RESET_DONE       (RESETS_BASE+0x8)           /**/
 
 #define RESETS_RESET_ADC        (0x00000001)
 #define RESETS_RESET_I2C0       (0x00000008)

@@ -55,7 +55,7 @@
 #define CLK_KIND_PERI           6                           /*SPI，I2C，UARTなど周辺機器に使われるクロック*/
 #define CLK_KIND_USB            7                           /*USB通信で必要となる正確なクロック*/
 #define CLK_KIND_ADC            8                           /*アナログデジタル変換起用クロック*/
-#define CLK_KIND_RTC            9
+#define CLK_KIND_RTC            9                           /*リアルタイムようクロック，時刻を計測する用途のクロック*/
 
 /* Reset Controler */
 #define RESETS_BASE             0x4000C000

@@ -39,10 +39,10 @@
 #define	CLK_x_DIV               (0x04)                      /*クロックをどれだけ早くするか*/
 #define	CLK_x_SELECTED          (0x08)                      /*現在どのクロックが使われているか*/
 
-#define CLK_SYS_CTRL_AUXSRC     (0x000000e0)
-#define CLK_SYS_CTRL_SRC        (0x00000001)
-#define CLK_REF_CTRL_SRC        (0x00000003)
-#define CLK_CTRL_ENABLE	        (0x00000800)
+#define CLK_SYS_CTRL_AUXSRC     (0x000000e0)                /*クロックないの補助クロックのうち，使うもののビットを立てる*/
+#define CLK_SYS_CTRL_SRC        (0x00000001)                /*AUXを使うかどうかを決める*/
+#define CLK_REF_CTRL_SRC        (0x00000003)                /*REFクロックのソースを選ぶビット領域*/
+#define CLK_CTRL_ENABLE	        (0x00000800)                /*このビットを立てると，クロックが有効になる．*/
 
 #define CLK_SYS_CTRL_SRC_AUX	(0x1)
 

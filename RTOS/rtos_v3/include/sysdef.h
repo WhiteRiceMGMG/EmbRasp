@@ -44,17 +44,17 @@
 #define CLK_REF_CTRL_SRC        (0x00000003)                /*REFクロックのソースを選ぶビット領域*/
 #define CLK_CTRL_ENABLE	        (0x00000800)                /*このビットを立てると，クロックが有効になる．*/
 
-#define CLK_SYS_CTRL_SRC_AUX	(0x1)
+#define CLK_SYS_CTRL_SRC_AUX	(0x1)                       /*SYSクロックのソースとしてAUXを使う．CLK_SYS_STRL_SRCにこの値を設定するとAUXが有効に*/
 
-#define CLK_KIND_GPOUT0         0
-#define CLK_KIND_GPOUT1         1
-#define CLK_KIND_GPOUT2         2
-#define CLK_KIND_GPOUT3         3
-#define CLK_KIND_REF            4
-#define CLK_KIND_SYS            5
-#define CLK_KIND_PERI           6
-#define CLK_KIND_USB            7
-#define CLK_KIND_ADC            8
+#define CLK_KIND_GPOUT0         0                           /*クロック出力を表す定数．GPIOピンにこのクロックを出力*/
+#define CLK_KIND_GPOUT1         1                           /**/
+#define CLK_KIND_GPOUT2         2                           /**/
+#define CLK_KIND_GPOUT3         3                           /**/
+#define CLK_KIND_REF            4                           /*タイミングの基準となるクロック*/
+#define CLK_KIND_SYS            5                           /*CPU．システムの中核で使われるクロック*/
+#define CLK_KIND_PERI           6                           /**/
+#define CLK_KIND_USB            7                           /**/
+#define CLK_KIND_ADC            8                           /**/
 #define CLK_KIND_RTC            9
 
 /* Reset Controler */

@@ -63,9 +63,9 @@
 #define RESETS_WDSEL            (RESETS_BASE+0x4)           /*ウォッチドッグリセット時に影響を与えるモジュールを選ぶ*/
 #define RESETS_RESET_DONE       (RESETS_BASE+0x8)           /*リセットが完了したか確認するレジスタ*/
 
-#define RESETS_RESET_ADC        (0x00000001)
-#define RESETS_RESET_I2C0       (0x00000008)
-#define RESETS_RESET_I2C1       (0x00000010)
+#define RESETS_RESET_ADC        (0x00000001)                /*アナログデジタル変換器をリセットするビット*/
+#define RESETS_RESET_I2C0       (0x00000008)                /**/
+#define RESETS_RESET_I2C1       (0x00000010)                /**/
 
 /* GPIO */
 #define IO_BANK0_BASE           0x40014000

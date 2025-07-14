@@ -65,7 +65,7 @@
 
 #define RESETS_RESET_ADC        (0x00000001)                /*アナログデジタル変換器をリセットするビット*/
 #define RESETS_RESET_I2C0       (0x00000008)                /*I2C0モジュールをリセットするビット*/
-#define RESETS_RESET_I2C1       (0x00000010)                /**/
+#define RESETS_RESET_I2C1       (0x00000010)                /*I2C1モジュールをリセットするビット*/
 
 /* GPIO */
 #define IO_BANK0_BASE           0x40014000

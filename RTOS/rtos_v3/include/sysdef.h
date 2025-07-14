@@ -26,18 +26,18 @@
 #define CLK_GPOUT1              (CLOCKS_BASE+0x0C)
 #define CLK_GPOUT2              (CLOCKS_BASE+0x18)
 #define CLK_GPOUT3              (CLOCKS_BASE+0x24)
-#define CLK_REF	                (CLOCKS_BASE+0x30)         /*参照クロック*/
-#define CLK_SYS	                (CLOCKS_BASE+0x3C)         /*システムクロック*/      
-#define CLK_PERI                (CLOCKS_BASE+0x48)         /*周辺機器クロック*/
-#define CLK_USB	                (CLOCKS_BASE+0x54)         /*USB周辺機器変換クロック*/
-#define CLK_ADC	                (CLOCKS_BASE+0x60)         /*アナログデジタル変換クロック*/
-#define CLK_RTC	                (CLOCKS_BASE+0x6C)         /*リアルタイムクロック*/
-#define CLK_SYS_RESUS_CTRL      (CLOCKS_BASE+0x78)         /*クロックの有効化，ソース選択*/
-#define CLK_SYS_RESUS_STATUS    (CLOCKS_BASE+0x7C)         /*クロックの分周比*/
+#define CLK_REF	                (CLOCKS_BASE+0x30)          /*参照クロック*/
+#define CLK_SYS	                (CLOCKS_BASE+0x3C)          /*システムクロック*/      
+#define CLK_PERI                (CLOCKS_BASE+0x48)          /*周辺機器クロック*/
+#define CLK_USB	                (CLOCKS_BASE+0x54)          /*USB周辺機器変換クロック*/
+#define CLK_ADC	                (CLOCKS_BASE+0x60)          /*アナログデジタル変換クロック*/
+#define CLK_RTC	                (CLOCKS_BASE+0x6C)          /*リアルタイムクロック*/
+#define CLK_SYS_RESUS_CTRL      (CLOCKS_BASE+0x78)          /*クロックの有効化，ソース選択*/
+#define CLK_SYS_RESUS_STATUS    (CLOCKS_BASE+0x7C)          /*クロックの分周比*/
 
-#define	CLK_x_CTRL              (0x00)
-#define	CLK_x_DIV               (0x04)
-#define	CLK_x_SELECTED          (0x08)
+#define	CLK_x_CTRL              (0x00)                      /*どのクロックをどう使うか*/
+#define	CLK_x_DIV               (0x04)                      /*クロックをどれだけ早くするか*/
+#define	CLK_x_SELECTED          (0x08)                      /*現在どのクロックが使われているか*/
 
 #define CLK_SYS_CTRL_AUXSRC     (0x000000e0)
 #define CLK_SYS_CTRL_SRC        (0x00000001)

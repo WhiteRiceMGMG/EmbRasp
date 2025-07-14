@@ -52,7 +52,7 @@
 #define CLK_KIND_GPOUT3         3                           /**/
 #define CLK_KIND_REF            4                           /*タイミングの基準となるクロック*/
 #define CLK_KIND_SYS            5                           /*CPU．システムの中核で使われるクロック*/
-#define CLK_KIND_PERI           6                           /**/
+#define CLK_KIND_PERI           6                           /*SPI，I2C，UARTなど周辺機器に使われるクロック*/
 #define CLK_KIND_USB            7                           /**/
 #define CLK_KIND_ADC            8                           /**/
 #define CLK_KIND_RTC            9

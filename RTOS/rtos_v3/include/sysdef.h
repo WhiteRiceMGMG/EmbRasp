@@ -64,7 +64,7 @@
 #define RESETS_RESET_DONE       (RESETS_BASE+0x8)           /*リセットが完了したか確認するレジスタ*/
 
 #define RESETS_RESET_ADC        (0x00000001)                /*アナログデジタル変換器をリセットするビット*/
-#define RESETS_RESET_I2C0       (0x00000008)                /**/
+#define RESETS_RESET_I2C0       (0x00000008)                /*I2C0モジュールをリセットするビット*/
 #define RESETS_RESET_I2C1       (0x00000010)                /**/
 
 /* GPIO */

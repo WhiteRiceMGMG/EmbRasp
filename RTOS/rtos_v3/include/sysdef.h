@@ -68,11 +68,11 @@
 #define RESETS_RESET_I2C1       (0x00000010)                /*I2C1モジュールをリセットするビット*/
 
 /* GPIO */
-#define IO_BANK0_BASE           0x40014000
-#define	GPIO_CTRL(n)            (IO_BANK0_BASE+0x04+(n*8))
-
-#define	GPIO_CTRL_FUNCSEL_I2C   3
-#define	GPIO_CTRL_FUNCSEL_NULL  31
+#define IO_BANK0_BASE           0x40014000                  /*GPIO制御レジスタのベースアドレス*/
+#define	GPIO_CTRL(n)            (IO_BANK0_BASE+0x04+(n*8))  /**/
+    
+#define	GPIO_CTRL_FUNCSEL_I2C   3                           /**/
+#define	GPIO_CTRL_FUNCSEL_NULL  31                          /**/
 
 #define PADS_BANK0_BASE         0x4001c000
 #define	GPIO(n)                 (PADS_BANK0_BASE+0x4+(n*4))

@@ -2,45 +2,115 @@
 Discarded input sections
 
  .group         0x00000000        0xc ./main.o
- .text          0x00000000        0x0 ./main.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
  .data          0x00000000        0x0 ./main.o
  .bss           0x00000000        0x0 ./main.o
- .debug_info    0x00000000       0x22 ./main.o
- .debug_abbrev  0x00000000       0x12 ./main.o
- .debug_aranges
-                0x00000000       0x18 ./main.o
- .debug_macro   0x00000000       0x11 ./main.o
- .debug_macro   0x00000000      0xa96 ./main.o
- .debug_line    0x00000000       0x2a ./main.o
- .debug_str     0x00000000     0x2cfa ./main.o
- .comment       0x00000000       0x39 ./main.o
- .ARM.attributes
-                0x00000000       0x2c ./main.o
+ .text          0x00000000        0x0 ./startup.o
+ .data          0x00000000        0x0 ./startup.o
+ .bss           0x00000000        0x0 ./startup.o
 
 Memory Configuration
 
 Name             Origin             Length             Attributes
+FLASH            0x10000000         0x00200000         xr
+RAM              0x20000000         0x00040000         xrw
 *default*        0x00000000         0xffffffff
 
 Linker script and memory map
 
 LOAD ./main.o
+LOAD ./startup.o
 START GROUP
 LOAD /Users/Hakumai/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
 LOAD /Users/Hakumai/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a
 LOAD /Users/Hakumai/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a
 END GROUP
+
+.text           0x10000000       0x44
+ *(.text*)
+ .text          0x10000000       0x34 ./main.o
+                0x10000000                main
+ .text.startup  0x10000034       0x10 ./startup.o
+                0x10000034                _start
+ *(.rodata*)
+
+.glue_7         0x10000044        0x0
+ .glue_7        0x10000044        0x0 linker stubs
+
+.glue_7t        0x10000044        0x0
+ .glue_7t       0x10000044        0x0 linker stubs
+
+.vfp11_veneer   0x10000044        0x0
+ .vfp11_veneer  0x10000044        0x0 linker stubs
+
+.v4_bx          0x10000044        0x0
+ .v4_bx         0x10000044        0x0 linker stubs
+
+.iplt           0x10000044        0x0
+ .iplt          0x10000044        0x0 ./startup.o
+
+.rel.dyn        0x10000044        0x0
+ .rel.iplt      0x10000044        0x0 ./startup.o
+
+.data
+ *(.data*)
+
+.igot.plt       0x20000000        0x0 load address 0x10000044
+ .igot.plt      0x20000000        0x0 ./startup.o
+
+.bss
+ *(.bss*)
+ *(COMMON)
+                0x20000000                        . = ALIGN (0x4)
+                0x20040000                        _stack_top = (ORIGIN (RAM) + LENGTH (RAM))
 OUTPUT(minBare.elf elf32-littlearm)
 LOAD linker stubs
 
-.glue_7         0x00000000        0x0
- .glue_7        0x00000000        0x0 linker stubs
+.debug_info     0x00000000       0xb3
+ .debug_info    0x00000000       0x8f ./main.o
+ .debug_info    0x0000008f       0x24 ./startup.o
 
-.glue_7t        0x00000000        0x0
- .glue_7t       0x00000000        0x0 linker stubs
+.debug_abbrev   0x00000000       0x68
+ .debug_abbrev  0x00000000       0x54 ./main.o
+ .debug_abbrev  0x00000054       0x14 ./startup.o
 
-.vfp11_veneer   0x00000000        0x0
- .vfp11_veneer  0x00000000        0x0 linker stubs
+.debug_aranges  0x00000000       0x40
+ .debug_aranges
+                0x00000000       0x20 ./main.o
+ .debug_aranges
+                0x00000020       0x20 ./startup.o
 
-.v4_bx          0x00000000        0x0
- .v4_bx         0x00000000        0x0 linker stubs
+.debug_macro    0x00000000      0xe39
+ .debug_macro   0x00000000       0x33 ./main.o
+ .debug_macro   0x00000033      0xa96 ./main.o
+ .debug_macro   0x00000ac9      0x34e ./main.o
+ .debug_macro   0x00000e17       0x22 ./main.o
+
+.debug_line     0x00000000      0x157
+ .debug_line    0x00000000      0x10c ./main.o
+ .debug_line    0x0000010c       0x4b ./startup.o
+
+.debug_str      0x00000000     0x3767
+ .debug_str     0x00000000     0x3767 ./main.o
+                               0x38af (size before relaxing)
+ .debug_str     0x00003767       0x4a ./startup.o
+
+.comment        0x00000000       0x38
+ .comment       0x00000000       0x38 ./main.o
+                                 0x39 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x2c ./main.o
+ .ARM.attributes
+                0x0000002c       0x1c ./startup.o
+
+.debug_frame    0x00000000       0x2c
+ .debug_frame   0x00000000       0x2c ./main.o
+
+.debug_line_str
+                0x00000000       0x3c
+ .debug_line_str
+                0x00000000       0x3c ./startup.o

@@ -6,8 +6,15 @@
 C_SRCS += \
 ../main.c 
 
+S_UPPER_SRCS += \
+../startup.S 
+
 OBJS += \
-./main.o 
+./main.o \
+./startup.o 
+
+S_UPPER_DEPS += \
+./startup.d 
 
 C_DEPS += \
 ./main.d 
@@ -18,6 +25,13 @@ C_DEPS += \
 	@echo 'Building file: $<'
 	@echo 'Invoking: GNU Arm Cross C Compiler'
 	arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -ffreestanding -g3 -I/Users/Hakumai/eclipse-workspace/minBare/includes -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+%.o: ../%.S subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: GNU Arm Cross Assembler'
+	arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -ffreestanding -g3 -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

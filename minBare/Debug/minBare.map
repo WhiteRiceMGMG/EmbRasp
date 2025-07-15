@@ -1,0 +1,46 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./main.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .debug_info    0x00000000       0x22 ./main.o
+ .debug_abbrev  0x00000000       0x12 ./main.o
+ .debug_aranges
+                0x00000000       0x18 ./main.o
+ .debug_macro   0x00000000       0x11 ./main.o
+ .debug_macro   0x00000000      0xa96 ./main.o
+ .debug_line    0x00000000       0x2a ./main.o
+ .debug_str     0x00000000     0x2cfa ./main.o
+ .comment       0x00000000       0x39 ./main.o
+ .ARM.attributes
+                0x00000000       0x2c ./main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./main.o
+START GROUP
+LOAD /Users/Hakumai/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
+LOAD /Users/Hakumai/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a
+LOAD /Users/Hakumai/tools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a
+END GROUP
+OUTPUT(minBare.elf elf32-littlearm)
+LOAD linker stubs
+
+.glue_7         0x00000000        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000000        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000000        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000000        0x0
+ .v4_bx         0x00000000        0x0 linker stubs

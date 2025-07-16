@@ -1,0 +1,111 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x10000000         0x00200000         xr
+RAM              0x20000000         0x00040000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./main.o
+LOAD ./startup.o
+START GROUP
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+END GROUP
+
+.text           0x10000000       0x78
+ *(.data.__stack_pointer)
+ .data.__stack_pointer
+                0x10000000        0x4 ./startup.o
+                0x10000000                __stack_pointer
+ *(.data.__vectors)
+ .data.__vectors
+                0x10000004       0x14 ./startup.o
+                0x10000008                __reset_handler
+ *(.text .text.*)
+ .text          0x10000018       0x60 ./main.o
+                0x10000018                main
+ .text          0x10000078        0x0 ./startup.o
+ *(.rodata .rodata.*)
+
+.glue_7         0x10000078        0x0
+ .glue_7        0x10000078        0x0 linker stubs
+
+.glue_7t        0x10000078        0x0
+ .glue_7t       0x10000078        0x0 linker stubs
+
+.vfp11_veneer   0x10000078        0x0
+ .vfp11_veneer  0x10000078        0x0 linker stubs
+
+.v4_bx          0x10000078        0x0
+ .v4_bx         0x10000078        0x0 linker stubs
+
+.iplt           0x10000078        0x0
+ .iplt          0x10000078        0x0 ./startup.o
+
+.rel.dyn        0x10000078        0x0
+ .rel.iplt      0x10000078        0x0 ./startup.o
+
+.data           0x20000000        0x0 load address 0x10000078
+                0x20000000                        __data_start = .
+ *(.data .data.*)
+ .data          0x20000000        0x0 ./main.o
+ .data          0x20000000        0x0 ./startup.o
+                0x20000000                        __data_end = .
+
+.igot.plt       0x20000000        0x0 load address 0x10000078
+ .igot.plt      0x20000000        0x0 ./startup.o
+
+.bss            0x20000000        0x0 load address 0x10000078
+                0x20000000                        __bss_start = .
+ *(.bss)
+ .bss           0x20000000        0x0 ./main.o
+ .bss           0x20000000        0x0 ./startup.o
+                0x20000000                        __bss_end = .
+                0x20040000                        __stack_top = (ORIGIN (RAM) + LENGTH (RAM))
+OUTPUT(BareMetalRP2040.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000       0x93
+ .debug_info    0x00000000       0x93 ./main.o
+
+.debug_abbrev   0x00000000       0x56
+ .debug_abbrev  0x00000000       0x56 ./main.o
+
+.debug_aranges  0x00000000       0x20
+ .debug_aranges
+                0x00000000       0x20 ./main.o
+
+.debug_macro    0x00000000      0xe4a
+ .debug_macro   0x00000000       0x66 ./main.o
+ .debug_macro   0x00000066      0xa96 ./main.o
+ .debug_macro   0x00000afc      0x34e ./main.o
+
+.debug_line     0x00000000       0xee
+ .debug_line    0x00000000       0xee ./main.o
+
+.debug_str      0x00000000     0x3839
+ .debug_str     0x00000000     0x3839 ./main.o
+                               0x399c (size before relaxing)
+
+.comment        0x00000000       0x39
+ .comment       0x00000000       0x39 ./main.o
+                                 0x3a (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x2c ./main.o
+ .ARM.attributes
+                0x0000002c       0x22 ./startup.o
+
+.debug_frame    0x00000000       0x2c
+ .debug_frame   0x00000000       0x2c ./main.o

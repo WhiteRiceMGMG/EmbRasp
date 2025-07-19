@@ -35,12 +35,13 @@ __vectors:
 /*スタックポインタを初期化．*/
 /*ldr r0, =__stack_topは__stack_topのアドレスをr0に読み込む．*/
 /*mov sp, r0でCPUのスタックポインタをその値に設定する*/
-
+/*これにより関数呼び出しやローカル変数が使えるようになる．*/
 __reset_handler:
     ldr r0, =__stack_top
     mov sp, r0
-
+/*main関数を呼び出す．bl は branch with linkはサブルーチンを呼び出す命令*/
     bl main
 
+/*通常，mainは戻らない前提であるが，もし戻ったら無限ループして止める．*/
 hang:
     b hang

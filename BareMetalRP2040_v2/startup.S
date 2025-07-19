@@ -2,6 +2,7 @@
 .syntax unified
 /*使用しているCPUの型番を指定*/
 .cpu cortex-m0plus
+/*Thumb命令セットを使う宣言*/
 .thumb
 
 .global __stack_pointer, __reset_handler

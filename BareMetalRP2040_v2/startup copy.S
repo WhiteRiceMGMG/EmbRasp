@@ -1,9 +1,14 @@
+/*アセンブラ構文モードの宣言*/
 .syntax unified
+/*使用しているCPUの型番を指定*/
 .cpu cortex-m0plus
+/*Thumb命令セットを使う宣言*/
 .thumb
 
+/*他ファイルから参照できるように*/
 .global __stack_pointer, __reset_handler
 
+/*スタックポインタ用のセクションを定義*/
 /* スタックポインタを定義：これはROMではなくRAM用 */
 .section .stack_pointer,"a",%progbits
 __stack_pointer:

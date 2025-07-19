@@ -8,6 +8,7 @@
 /*他ファイルから参照できるように*/
 .global __stack_pointer, __reset_handler
 
+/*スタックポインタ用のセクションを定義*/
 /* スタックポインタを定義：これはROMではなくRAM用 */
 .section .stack_pointer,"a",%progbits
 __stack_pointer:

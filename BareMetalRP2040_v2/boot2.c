@@ -18,7 +18,12 @@ const void* vector_table[] __attribute__((section(".vectors"))) = {
     Reset_Handler,      // リセットハンドラ（＝起動時に最初に呼ばれる）
     ...
 };
+このベクタテーブルが最初の4バイト，8バイト…と順番に並んでおり，
+リセット時は2番目の値（PC初期値）にジャンプされる．
 
+・ハードがやること→0x10000004の値(boot2,リセットベクタ)を読み，PCに設定
+・ソフトがやること→リセットハンドラを書く(アセンブリ・C) + ベクタテーブル配置
+・最小構成の責任であり，startup.S vector.c link.ldは作成する．
 
 */
 const unsigned char __boot2_start[]__attribute__((section(".boot2"))) = {

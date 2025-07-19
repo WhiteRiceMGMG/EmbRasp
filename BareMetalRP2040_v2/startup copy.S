@@ -29,8 +29,11 @@ __vectors:
 .global __reset_handler
 
 /*実際の処理本体を各セクション*/
-/**/
+/*.textという実行可能(a)かつ実効属性(x)のセクションにリセットハンドラーを配置する*/
 .section .text.__reset_handler,"ax",%progbits
+
+/*スタックポインタを初期化．*/
+/*ldr r0, =__stack_topは__stack_topのアドレスをr0に読み込む．*/
 __reset_handler:
     ldr r0, =__stack_top
     mov sp, r0

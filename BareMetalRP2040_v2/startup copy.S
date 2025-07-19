@@ -34,6 +34,8 @@ __vectors:
 
 /*スタックポインタを初期化．*/
 /*ldr r0, =__stack_topは__stack_topのアドレスをr0に読み込む．*/
+/*mov sp, r0でCPUのスタックポインタをその値に設定する*/
+
 __reset_handler:
     ldr r0, =__stack_top
     mov sp, r0

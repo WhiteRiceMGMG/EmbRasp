@@ -12,9 +12,12 @@
 /* スタックポインタを定義：これはROMではなくRAM用 */
 /*a:このセクションはメモリにロードされるべき*/
 /*x:このセクションは実行可能なコードを含む*/
+/*progbits:プログラムに必要な情報があるセクションである．*/
+/*nobits:これは.bssセクション（初期値ゼロ）に使われる*/
 .section .stack_pointer,"a",%progbits
 
 /*スタックの初期値(RAMの上端)を設定*/
+/**/
 __stack_pointer:
     .word __stack_top
 

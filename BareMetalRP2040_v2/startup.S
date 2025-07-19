@@ -1,3 +1,4 @@
+/*アセンブラ構文モードの宣言*/
 .syntax unified
 .cpu cortex-m0plus
 .thumb

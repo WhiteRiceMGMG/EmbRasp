@@ -17,7 +17,8 @@
 .section .stack_pointer,"a",%progbits
 
 /*スタックの初期値(RAMの上端)を設定*/
-/**/
+/*.wordの意味について．*/
+/*.word __stack_top : 32bit値を埋め込む命令*/
 __stack_pointer:
     .word __stack_top
 

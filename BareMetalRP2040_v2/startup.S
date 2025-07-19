@@ -5,6 +5,7 @@
 /*Thumb命令セットを使う宣言*/
 .thumb
 
+/*他ファイルから参照できるように*/
 .global __stack_pointer, __reset_handler
 
 /* スタックポインタを定義：これはROMではなくRAM用 */

@@ -15,6 +15,32 @@ qspiフラッシュの初期化．
 ユーザプログラムの読み込み
 エントリポインタ呼び出し
 
-３．boot2
-最小限のqspi初期化コード
-必ふ」」ふ
+
+#define LED_PIN 17
+static void Led_On(void) {
+    SIO_GPIO_OUT_SET = (1u << LED_PIN);
+}
+
+LedController Led = {
+    .On = Led_On,
+    .Off = Led_Off,
+    .Toggle = Led_Toggle,
+};
+
+#pragma once
+#include "led.h"
+
+typedef struct {
+    LedController Led;
+} KedSystem;
+
+extern KedSystem Ked;
+
+KedSystem Ked = {
+    .Led = {
+        .On = Led_On,
+        .Off = Led_Off,
+        .Toggle = Led_Toggle,
+    }
+};
+Ked.Led.On();

@@ -1,3 +1,4 @@
+/*多分これbss dataの初期化がないから追加する．それか全部Cで書くか？*/
 .syntax unified
 .cpu cortex-m0plus
 .thumb

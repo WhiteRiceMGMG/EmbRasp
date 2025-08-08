@@ -7,9 +7,12 @@ ENTRY(__boot2_start)
 
 SECTIONS {
     /* --- boot2 (必ず先頭に配置) --- */
+
     .boot2 ORIGIN(ROM) : ALIGN(4) {
-        KEEP(*(.boot2))
-    } > ROM
+    __boot2_start = .;
+    KEEP(*(.boot2))
+} > ROM
+
 
     /* --- 実行コード本体 --- */
     .text : ALIGN(4) {

@@ -16,3 +16,5 @@ I commit Barematal
 
 picoのリンカーとかアセンブリが分からなさすぎるため調査したい
 kihan冷蔵庫
+いｔ
+ehehehe

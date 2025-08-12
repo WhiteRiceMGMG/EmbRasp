@@ -10,15 +10,21 @@
 #include <stdint.h>
 
 // RESETSレジスタ（アドレス0x4000C000）の定義
+//RESETモジュールの先頭アドレス．RESETSは各周辺機器のリセット状態を管理するハード
 #define RESETS_BASE             0x4000C000
+//RESETS_RESETはどの周辺機器をリセット状態にするかを制御する
 #define RESETS_RESET            (*(volatile uint32_t*)(RESETS_BASE + 0x00))
+//ビット位置でGPIO機能選択やピン電気特性
 #define RESETS_RESET_IO_BANK0   (1u << 5)
 #define RESETS_RESET_PADS_BANK0 (1u << 8)
+//リセット解除が完了した周辺機器のビットが立つ．
 #define RESETS_RESET_DONE       (*(volatile uint32_t*)(RESETS_BASE + 0x08))
 
 // SIOレジスタ（アドレス0xD0000000）の定義
 #define SIO_BASE        0xD0000000
+//output enableをセットするレジスタ
 #define SIO_GPIO_OE_SET (*(volatile uint32_t*)(SIO_BASE + 0x024))
+//出力値を1にするレジスタ
 #define SIO_GPIO_OUT_SET (*(volatile uint32_t*)(SIO_BASE + 0x014))
 
 // IO_BANK0 GPIO_CTRLレジスタのオフセット計算マクロ

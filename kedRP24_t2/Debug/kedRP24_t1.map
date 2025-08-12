@@ -1,0 +1,149 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./boot2.o
+ .group         0x00000000        0xc ./main.o
+ .group         0x00000000        0xc ./main.o
+ .debug_macro   0x00000000      0xa96 ./main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x10000000         0x00200000         xr
+RAM              0x20000000         0x00040000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./boot2.o
+LOAD ./main.o
+LOAD ./startup.o
+START GROUP
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+END GROUP
+
+.boot2          0x10000000      0x100
+ *(.boot2)
+ .boot2         0x10000000      0x100 ./boot2.o
+                0x10000000                __boot2_start
+
+.vectors        0x10000100        0x8
+ *(.vectors)
+ .vectors       0x10000100        0x8 ./startup.o
+
+.stack_pointer  0x10000108        0x4
+ .stack_pointer
+                0x10000108        0x4 ./startup.o
+                0x10000108                __stack_pointer
+
+.text           0x1000010c       0x70
+ *(.text.__reset_handler)
+ .text.__reset_handler
+                0x1000010c       0x10 ./startup.o
+                0x1000010c                __reset_handler
+ *(.text .text.*)
+ .text          0x1000011c        0x0 ./boot2.o
+ .text          0x1000011c       0x60 ./main.o
+                0x1000011c                main
+ .text          0x1000017c        0x0 ./startup.o
+ *(.rodata .rodata.*)
+
+.glue_7         0x1000017c        0x0
+ .glue_7        0x1000017c        0x0 linker stubs
+
+.glue_7t        0x1000017c        0x0
+ .glue_7t       0x1000017c        0x0 linker stubs
+
+.vfp11_veneer   0x1000017c        0x0
+ .vfp11_veneer  0x1000017c        0x0 linker stubs
+
+.v4_bx          0x1000017c        0x0
+ .v4_bx         0x1000017c        0x0 linker stubs
+
+.iplt           0x1000017c        0x0
+ .iplt          0x1000017c        0x0 ./startup.o
+
+.rel.dyn        0x1000017c        0x0
+ .rel.iplt      0x1000017c        0x0 ./startup.o
+
+.data           0x20000000        0x0 load address 0x1000017c
+                0x20000000                        __data_start = .
+ *(.data .data.*)
+ .data          0x20000000        0x0 ./boot2.o
+ .data          0x20000000        0x0 ./main.o
+ .data          0x20000000        0x0 ./startup.o
+                0x20000000                        __data_end = .
+
+.igot.plt       0x20000000        0x0 load address 0x1000017c
+ .igot.plt      0x20000000        0x0 ./startup.o
+
+.bss            0x20000000        0x0 load address 0x1000017c
+                0x20000000                        __bss_start = .
+ *(.bss .bss.*)
+ .bss           0x20000000        0x0 ./boot2.o
+ .bss           0x20000000        0x0 ./main.o
+ .bss           0x20000000        0x0 ./startup.o
+ *(COMMON)
+                0x20000000                        __bss_end = .
+                0x20040000                        __stack_top = (ORIGIN (RAM) + LENGTH (RAM))
+OUTPUT(kedRP24_t1.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000      0x114
+ .debug_info    0x00000000       0x5d ./boot2.o
+ .debug_info    0x0000005d       0x93 ./main.o
+ .debug_info    0x000000f0       0x24 ./startup.o
+
+.debug_abbrev   0x00000000       0xb3
+ .debug_abbrev  0x00000000       0x49 ./boot2.o
+ .debug_abbrev  0x00000049       0x56 ./main.o
+ .debug_abbrev  0x0000009f       0x14 ./startup.o
+
+.debug_aranges  0x00000000       0x58
+ .debug_aranges
+                0x00000000       0x18 ./boot2.o
+ .debug_aranges
+                0x00000018       0x20 ./main.o
+ .debug_aranges
+                0x00000038       0x20 ./startup.o
+
+.debug_macro    0x00000000      0xe5b
+ .debug_macro   0x00000000       0x11 ./boot2.o
+ .debug_macro   0x00000011      0xa96 ./boot2.o
+ .debug_macro   0x00000aa7       0x66 ./main.o
+ .debug_macro   0x00000b0d      0x34e ./main.o
+
+.debug_line     0x00000000      0x164
+ .debug_line    0x00000000       0x2b ./boot2.o
+ .debug_line    0x0000002b       0xee ./main.o
+ .debug_line    0x00000119       0x4b ./startup.o
+
+.debug_str      0x00000000     0x3868
+ .debug_str     0x00000000     0x3868 ./boot2.o
+                               0x2d27 (size before relaxing)
+ .debug_str     0x00003868     0x3997 ./main.o
+ .debug_str     0x00003868       0x4d ./startup.o
+
+.comment        0x00000000       0x39
+ .comment       0x00000000       0x39 ./boot2.o
+                                 0x3a (size before relaxing)
+ .comment       0x00000039       0x3a ./main.o
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x2c ./boot2.o
+ .ARM.attributes
+                0x0000002c       0x2c ./main.o
+ .ARM.attributes
+                0x00000058       0x22 ./startup.o
+
+.debug_frame    0x00000000       0x2c
+ .debug_frame   0x00000000       0x2c ./main.o
+
+.debug_line_str
+                0x00000000       0x3f
+ .debug_line_str
+                0x00000000       0x3f ./startup.o

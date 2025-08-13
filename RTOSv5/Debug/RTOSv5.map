@@ -1,0 +1,907 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                              ./common/main.o (__aeabi_uidiv)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                              ./boot/reset_hdr.o (__aeabi_uldivmod)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o) (__clzdi2)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o) (__clzsi2)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (atexit)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (exit)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-exit.o) (__stdio_exit_handler)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fwalk.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o) (_fwalk_sglue)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o) (__sread)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-memset.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (memset)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-closer.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o) (_close_r)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-closer.o) (errno)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o) (_impure_ptr)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lseekr.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o) (_lseek_r)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-readr.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o) (_read_r)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-writer.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o) (_write_r)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (__libc_init_array)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (__libc_fini_array)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-atexit.o) (__register_exitproc)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-exit.o) (__call_exitprocs)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o) (_free_r)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o) (_malloc_r)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o) (__malloc_lock)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fclose.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o) (_fclose_r)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fflush.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fclose.o) (__sflush_r)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o) (_sbrk_r)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o) (sysconf)
+C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+                              C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o) (__errno)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .init_array    0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .fini_array    0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .eh_frame      0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .data.__dso_handle
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x00000000       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .text.frame_dummy
+                0x00000000       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .bss.completed.1
+                0x00000000        0x1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .bss.object.0  0x00000000       0x18 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .text          0x00000000       0x74 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.extab     0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.exidx     0x00000000       0x10 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.attributes
+                0x00000000       0x1b C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .data          0x00000000        0x0 ./kernel/syslib.o
+ .bss           0x00000000        0x0 ./kernel/syslib.o
+ .group         0x00000000        0xc ./include/Button.o
+ .group         0x00000000        0xc ./include/Button.o
+ .group         0x00000000        0xc ./include/Button.o
+ .group         0x00000000        0xc ./include/Button.o
+ .group         0x00000000        0xc ./include/Button.o
+ .group         0x00000000        0xc ./include/Button.o
+ .data          0x00000000        0x0 ./include/Button.o
+ .bss           0x00000000        0x0 ./include/Button.o
+ .debug_macro   0x00000000      0xa96 ./include/Button.o
+ .debug_macro   0x00000000       0x10 ./include/Button.o
+ .debug_macro   0x00000000      0x34e ./include/Button.o
+ .debug_macro   0x00000000       0x16 ./include/Button.o
+ .debug_macro   0x00000000      0x30b ./include/Button.o
+ .debug_macro   0x00000000       0x2e ./include/Button.o
+ .group         0x00000000        0xc ./include/KedDriver.o
+ .group         0x00000000        0xc ./include/KedDriver.o
+ .group         0x00000000        0xc ./include/KedDriver.o
+ .group         0x00000000        0xc ./include/KedDriver.o
+ .group         0x00000000        0xc ./include/KedDriver.o
+ .group         0x00000000        0xc ./include/KedDriver.o
+ .text          0x00000000        0x0 ./include/KedDriver.o
+ .bss           0x00000000        0x0 ./include/KedDriver.o
+ .debug_macro   0x00000000      0xa96 ./include/KedDriver.o
+ .debug_macro   0x00000000       0x10 ./include/KedDriver.o
+ .debug_macro   0x00000000      0x34e ./include/KedDriver.o
+ .debug_macro   0x00000000       0x16 ./include/KedDriver.o
+ .debug_macro   0x00000000      0x30b ./include/KedDriver.o
+ .debug_macro   0x00000000       0x2e ./include/KedDriver.o
+ .group         0x00000000        0xc ./include/Led.o
+ .group         0x00000000        0xc ./include/Led.o
+ .group         0x00000000        0xc ./include/Led.o
+ .group         0x00000000        0xc ./include/Led.o
+ .group         0x00000000        0xc ./include/Led.o
+ .group         0x00000000        0xc ./include/Led.o
+ .data          0x00000000        0x0 ./include/Led.o
+ .bss           0x00000000        0x0 ./include/Led.o
+ .debug_macro   0x00000000      0xa96 ./include/Led.o
+ .debug_macro   0x00000000       0x10 ./include/Led.o
+ .debug_macro   0x00000000      0x34e ./include/Led.o
+ .debug_macro   0x00000000       0x16 ./include/Led.o
+ .debug_macro   0x00000000      0x30b ./include/Led.o
+ .debug_macro   0x00000000       0x2e ./include/Led.o
+ .group         0x00000000        0xc ./common/main.o
+ .group         0x00000000        0xc ./common/main.o
+ .group         0x00000000        0xc ./common/main.o
+ .group         0x00000000        0xc ./common/main.o
+ .group         0x00000000        0xc ./common/main.o
+ .group         0x00000000        0xc ./common/main.o
+ .data          0x00000000        0x0 ./common/main.o
+ .bss           0x00000000        0x0 ./common/main.o
+ .debug_macro   0x00000000      0xa96 ./common/main.o
+ .debug_macro   0x00000000       0x10 ./common/main.o
+ .debug_macro   0x00000000      0x34e ./common/main.o
+ .debug_macro   0x00000000       0x16 ./common/main.o
+ .debug_macro   0x00000000      0x30b ./common/main.o
+ .debug_macro   0x00000000       0x2e ./common/main.o
+ .group         0x00000000        0xc ./boot/boot2.o
+ .text          0x00000000        0x0 ./boot/boot2.o
+ .data          0x00000000        0x0 ./boot/boot2.o
+ .bss           0x00000000        0x0 ./boot/boot2.o
+ .debug_macro   0x00000000      0xa96 ./boot/boot2.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .data          0x00000000        0x0 ./boot/reset_hdr.o
+ .bss           0x00000000        0x0 ./boot/reset_hdr.o
+ .debug_macro   0x00000000      0xa96 ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x10 ./boot/reset_hdr.o
+ .debug_macro   0x00000000      0x34e ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x16 ./boot/reset_hdr.o
+ .debug_macro   0x00000000      0x30b ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x2e ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x10 ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .data          0x00000000        0x0 ./boot/vector_tbl.o
+ .bss           0x00000000        0x0 ./boot/vector_tbl.o
+ .debug_macro   0x00000000      0xa96 ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x10 ./boot/vector_tbl.o
+ .debug_macro   0x00000000      0x34e ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x16 ./boot/vector_tbl.o
+ .debug_macro   0x00000000      0x30b ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x2e ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x10 ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./application/appAbst.o
+ .text          0x00000000        0x0 ./application/appAbst.o
+ .data          0x00000000        0x0 ./application/appAbst.o
+ .bss           0x00000000        0x0 ./application/appAbst.o
+ .debug_info    0x00000000       0x22 ./application/appAbst.o
+ .debug_abbrev  0x00000000       0x12 ./application/appAbst.o
+ .debug_aranges
+                0x00000000       0x18 ./application/appAbst.o
+ .debug_macro   0x00000000       0x11 ./application/appAbst.o
+ .debug_macro   0x00000000      0xa96 ./application/appAbst.o
+ .debug_line    0x00000000       0x39 ./application/appAbst.o
+ .debug_str     0x00000000     0x2d08 ./application/appAbst.o
+ .comment       0x00000000       0x3a ./application/appAbst.o
+ .ARM.attributes
+                0x00000000       0x2c ./application/appAbst.o
+ .group         0x00000000        0xc ./application/inputAbst.o
+ .group         0x00000000        0xc ./application/inputAbst.o
+ .group         0x00000000        0xc ./application/inputAbst.o
+ .group         0x00000000        0xc ./application/inputAbst.o
+ .group         0x00000000        0xc ./application/inputAbst.o
+ .group         0x00000000        0xc ./application/inputAbst.o
+ .text          0x00000000        0x0 ./application/inputAbst.o
+ .data          0x00000000        0x0 ./application/inputAbst.o
+ .bss           0x00000000        0x0 ./application/inputAbst.o
+ .debug_info    0x00000000       0x69 ./application/inputAbst.o
+ .debug_abbrev  0x00000000       0x28 ./application/inputAbst.o
+ .debug_aranges
+                0x00000000       0x18 ./application/inputAbst.o
+ .debug_macro   0x00000000       0x70 ./application/inputAbst.o
+ .debug_macro   0x00000000      0xa96 ./application/inputAbst.o
+ .debug_macro   0x00000000       0x10 ./application/inputAbst.o
+ .debug_macro   0x00000000      0x34e ./application/inputAbst.o
+ .debug_macro   0x00000000       0x16 ./application/inputAbst.o
+ .debug_macro   0x00000000      0x30b ./application/inputAbst.o
+ .debug_macro   0x00000000       0x2e ./application/inputAbst.o
+ .debug_line    0x00000000      0x133 ./application/inputAbst.o
+ .debug_str     0x00000000     0x43f9 ./application/inputAbst.o
+ .comment       0x00000000       0x3a ./application/inputAbst.o
+ .ARM.attributes
+                0x00000000       0x2c ./application/inputAbst.o
+ .group         0x00000000        0xc ./application/outputAbst.o
+ .text          0x00000000        0x0 ./application/outputAbst.o
+ .data          0x00000000        0x0 ./application/outputAbst.o
+ .bss           0x00000000        0x0 ./application/outputAbst.o
+ .debug_info    0x00000000       0x22 ./application/outputAbst.o
+ .debug_abbrev  0x00000000       0x12 ./application/outputAbst.o
+ .debug_aranges
+                0x00000000       0x18 ./application/outputAbst.o
+ .debug_macro   0x00000000       0x11 ./application/outputAbst.o
+ .debug_macro   0x00000000      0xa96 ./application/outputAbst.o
+ .debug_line    0x00000000       0x3c ./application/outputAbst.o
+ .debug_str     0x00000000     0x2d0b ./application/outputAbst.o
+ .comment       0x00000000       0x3a ./application/outputAbst.o
+ .ARM.attributes
+                0x00000000       0x2c ./application/outputAbst.o
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.extab.text.__udivmoddi4
+                0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+ .text.atexit   0x00000000       0x10 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
+ .text.exit     0x00000000       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x1c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x3c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x1c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x1c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000      0x118 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xc8 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x38 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000       0x10 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000       0x10 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .bss.__sf      0x00000000      0x138 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .bss.__stdio_exit_handler
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x44 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fwalk.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x40 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0xc C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-memset.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-memset.o)
+ .text.memset   0x00000000       0x94 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-memset.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-memset.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-closer.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-closer.o)
+ .text._close_r
+                0x00000000       0x24 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-closer.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-closer.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0x74 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+ .bss.errno     0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+ .data._impure_data
+                0x00000000      0x140 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lseekr.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-readr.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-readr.o)
+ .text._read_r  0x00000000       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-readr.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-readr.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-writer.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-writer.o)
+ .text._write_r
+                0x00000000       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-writer.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-writer.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+ .text.__libc_init_array
+                0x00000000       0x48 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+ .text.__libc_fini_array
+                0x00000000       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x00000000        0x1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+ .text.__register_exitproc
+                0x00000000       0xa8 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+ .bss.__atexit0
+                0x00000000      0x190 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text.startup.register_fini
+                0x00000000       0x18 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .init_array.00000
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000       0xfc C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .bss.__atexit  0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .data.__atexit_recursive_mutex
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+ .text._malloc_trim_r
+                0x00000000       0xb4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+ .text._free_r  0x00000000      0x1f0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x00000000      0x5cc C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .bss.__malloc_current_mallinfo
+                0x00000000       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .bss.__malloc_max_total_mem
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .bss.__malloc_max_sbrked_mem
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .data.__malloc_sbrk_base
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .bss.__malloc_top_pad
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .data.__malloc_trim_threshold
+                0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .data.__malloc_av_
+                0x00000000      0x408 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000       0x10 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000       0x10 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fclose.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fclose.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fclose.o)
+ .text._fclose_r
+                0x00000000       0xcc C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fclose.o)
+ .text.fclose   0x00000000       0x14 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fclose.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fclose.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fclose.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x13c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x68 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x7c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fflush.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x24 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+ .text.sysconf  0x00000000       0x1c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+ .text.__errno  0x00000000        0xc C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+ .comment       0x00000000       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+ .ARM.attributes
+                0x00000000       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+ .text          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtn.o
+ .data          0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtn.o
+ .bss           0x00000000        0x0 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtn.o
+ .init          0x00000000        0x8 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtn.o
+ .fini          0x00000000        0x8 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtn.o
+ .ARM.attributes
+                0x00000000       0x1e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x10000000         0x00200000         xr
+RAM              0x20000000         0x00040000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+LOAD ./kernel/syslib.o
+LOAD ./include/Button.o
+LOAD ./include/KedDriver.o
+LOAD ./include/Led.o
+LOAD ./common/main.o
+LOAD ./boot/boot2.o
+LOAD ./boot/reset_hdr.o
+LOAD ./boot/vector_tbl.o
+LOAD ./application/appAbst.o
+LOAD ./application/inputAbst.o
+LOAD ./application/outputAbst.o
+START GROUP
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+END GROUP
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+LOAD C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtn.o
+
+boot2           0x10000000      0x100
+                0x10000000                        __boot2_start__ = .
+ *(.boot2)
+ .boot2         0x10000000      0x100 ./boot/boot2.o
+                0x10000000                boot2
+                0x10000100                        __boot2_end__ = .
+                0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
+
+.text           0x10000100      0xc59
+                0x10000100                        __vector_org = .
+ *(.vector)
+ .vector        0x10000100       0xbc ./boot/vector_tbl.o
+                0x10000100                vector_tbl
+ *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
+ .text          0x100001bc       0xc8 ./kernel/syslib.o
+                0x100001e8                tm_com_init
+                0x10000230                tm_putstring
+ .text          0x10000284       0x38 ./include/Button.o
+                0x10000298                Button_On
+ .text          0x100002bc       0x50 ./include/Led.o
+                0x100002d4                Led_On
+                0x100002f0                Led_Off
+ .text          0x1000030c       0x90 ./common/main.o
+                0x10000364                main
+ .text          0x1000039c      0x664 ./boot/reset_hdr.o
+                0x100009bc                Reset_Handler
+ .text          0x10000a00        0x6 ./boot/vector_tbl.o
+                0x10000a00                Default_Handler
+                0x10000a06                        __start = .
+ *(.text)
+ *fill*         0x10000a06        0x2 
+ .text          0x10000a08      0x114 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x10000a08                __aeabi_uidiv
+                0x10000a08                __udivsi3
+                0x10000b14                __aeabi_uidivmod
+ .text          0x10000b1c        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x10000b1c                __aeabi_idiv0
+                0x10000b1c                __aeabi_ldiv0
+ .text          0x10000b20       0x40 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x10000b20                __aeabi_uldivmod
+ .text          0x10000b60       0x18 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+                0x10000b60                __clzdi2
+ .text          0x10000b78       0x3c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                0x10000b78                __clzsi2
+ *(.text.*)
+ .text.__udivmoddi4
+                0x10000bb4      0x198 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x10000bb4                __udivmoddi4
+ *(.rodata)
+ .rodata        0x10000d4c        0xd ./common/main.o
+ *(.rodata.*)
+
+.glue_7         0x10000d5c        0x0
+ .glue_7        0x10000d5c        0x0 linker stubs
+
+.glue_7t        0x10000d5c        0x0
+ .glue_7t       0x10000d5c        0x0 linker stubs
+
+.vfp11_veneer   0x10000d5c        0x0
+ .vfp11_veneer  0x10000d5c        0x0 linker stubs
+
+.v4_bx          0x10000d5c        0x0
+ .v4_bx         0x10000d5c        0x0 linker stubs
+
+.init           0x10000d5c        0x4
+ .init          0x10000d5c        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+                0x10000d5c                _init
+
+.fini           0x10000d60        0x4
+ .fini          0x10000d60        0x4 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+                0x10000d60                _fini
+
+.iplt           0x10000d64        0x0
+ .iplt          0x10000d64        0x0 ./include/KedDriver.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x10000d64                        __exidx_start = .
+
+.ARM.exidx      0x10000d64        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.text.__udivmoddi4
+                0x10000d64        0x8 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x10000d6c                        __exidx_end = .
+                0x10000d6c                        __data_org = .
+
+.rel.dyn        0x10000d6c        0x0
+ .rel.iplt      0x10000d6c        0x0 ./include/KedDriver.o
+
+.data           0x20000000        0xc load address 0x10000d6c
+                0x20000000                        __data_start = .
+ *(.data)
+ .data          0x20000000        0xc ./include/KedDriver.o
+                0x20000000                Ked
+ *(.data.*)
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        __data_end = .
+
+.igot.plt       0x2000000c        0x0 load address 0x10000d78
+ .igot.plt      0x2000000c        0x0 ./include/KedDriver.o
+
+.bss            0x2000000c        0x0
+                0x2000000c                        __bss_start = .
+ *(.bss)
+ *(.bss.*)
+ *(COMMON)
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        __bss_end = .
+                0x2000000c                        __end = .
+OUTPUT(RTOSv5.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c ./kernel/syslib.o
+ .ARM.attributes
+                0x0000004a       0x2c ./include/Button.o
+ .ARM.attributes
+                0x00000076       0x2c ./include/KedDriver.o
+ .ARM.attributes
+                0x000000a2       0x2c ./include/Led.o
+ .ARM.attributes
+                0x000000ce       0x2c ./common/main.o
+ .ARM.attributes
+                0x000000fa       0x2c ./boot/boot2.o
+ .ARM.attributes
+                0x00000126       0x2c ./boot/reset_hdr.o
+ .ARM.attributes
+                0x00000152       0x2c ./boot/vector_tbl.o
+ .ARM.attributes
+                0x0000017e       0x1e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000019c       0x1e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000001ba       0x1e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000001d8       0x2c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000204       0x1e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .ARM.attributes
+                0x00000222       0x1e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.comment        0x00000000       0x39
+ .comment       0x00000000       0x39 ./kernel/syslib.o
+                                 0x3a (size before relaxing)
+ .comment       0x00000039       0x3a ./include/Button.o
+ .comment       0x00000039       0x3a ./include/KedDriver.o
+ .comment       0x00000039       0x3a ./include/Led.o
+ .comment       0x00000039       0x3a ./common/main.o
+ .comment       0x00000039       0x3a ./boot/boot2.o
+ .comment       0x00000039       0x3a ./boot/reset_hdr.o
+ .comment       0x00000039       0x3a ./boot/vector_tbl.o
+ .comment       0x00000039       0x3a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_info     0x00000000      0xfb4
+ .debug_info    0x00000000      0x154 ./kernel/syslib.o
+ .debug_info    0x00000154       0xd1 ./include/Button.o
+ .debug_info    0x00000225      0x126 ./include/KedDriver.o
+ .debug_info    0x0000034b       0xe6 ./include/Led.o
+ .debug_info    0x00000431      0x1d5 ./common/main.o
+ .debug_info    0x00000606       0x5d ./boot/boot2.o
+ .debug_info    0x00000663      0x3dc ./boot/reset_hdr.o
+ .debug_info    0x00000a3f       0xc4 ./boot/vector_tbl.o
+ .debug_info    0x00000b03       0x3e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_info    0x00000b41       0x3c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000b7d       0x31 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x00000bae      0x3b1 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_info    0x00000f5f       0x24 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_info    0x00000f83       0x31 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_abbrev   0x00000000      0x879
+ .debug_abbrev  0x00000000       0xf7 ./kernel/syslib.o
+ .debug_abbrev  0x000000f7       0x98 ./include/Button.o
+ .debug_abbrev  0x0000018f       0xd0 ./include/KedDriver.o
+ .debug_abbrev  0x0000025f       0xa7 ./include/Led.o
+ .debug_abbrev  0x00000306      0x152 ./common/main.o
+ .debug_abbrev  0x00000458       0x49 ./boot/boot2.o
+ .debug_abbrev  0x000004a1      0x16d ./boot/reset_hdr.o
+ .debug_abbrev  0x0000060e       0x99 ./boot/vector_tbl.o
+ .debug_abbrev  0x000006a7       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x000006cf       0x26 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x000006f5       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000071d      0x120 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x0000083d       0x14 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_abbrev  0x00000851       0x28 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x00000000      0x1b0
+ .debug_aranges
+                0x00000000       0x20 ./kernel/syslib.o
+ .debug_aranges
+                0x00000020       0x20 ./include/Button.o
+ .debug_aranges
+                0x00000040       0x18 ./include/KedDriver.o
+ .debug_aranges
+                0x00000058       0x20 ./include/Led.o
+ .debug_aranges
+                0x00000078       0x20 ./common/main.o
+ .debug_aranges
+                0x00000098       0x18 ./boot/boot2.o
+ .debug_aranges
+                0x000000b0       0x20 ./boot/reset_hdr.o
+ .debug_aranges
+                0x000000d0       0x20 ./boot/vector_tbl.o
+ .debug_aranges
+                0x000000f0       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000110       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000130       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000150       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x00000170       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_aranges
+                0x00000190       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_macro    0x00000000     0x13e7
+ .debug_macro   0x00000000       0x57 ./kernel/syslib.o
+ .debug_macro   0x00000057      0xa96 ./kernel/syslib.o
+ .debug_macro   0x00000aed       0x10 ./kernel/syslib.o
+ .debug_macro   0x00000afd      0x34e ./kernel/syslib.o
+ .debug_macro   0x00000e4b       0x16 ./kernel/syslib.o
+ .debug_macro   0x00000e61      0x30b ./kernel/syslib.o
+ .debug_macro   0x0000116c       0x2e ./kernel/syslib.o
+ .debug_macro   0x0000119a       0x10 ./kernel/syslib.o
+ .debug_macro   0x000011aa       0x58 ./include/Button.o
+ .debug_macro   0x00001202       0x6c ./include/KedDriver.o
+ .debug_macro   0x0000126e       0x58 ./include/Led.o
+ .debug_macro   0x000012c6       0x70 ./common/main.o
+ .debug_macro   0x00001336       0x11 ./boot/boot2.o
+ .debug_macro   0x00001347       0x53 ./boot/reset_hdr.o
+ .debug_macro   0x0000139a       0x4d ./boot/vector_tbl.o
+
+.debug_line     0x00000000      0xecd
+ .debug_line    0x00000000      0x179 ./kernel/syslib.o
+ .debug_line    0x00000179      0x119 ./include/Button.o
+ .debug_line    0x00000292       0xff ./include/KedDriver.o
+ .debug_line    0x00000391      0x10c ./include/Led.o
+ .debug_line    0x0000049d      0x18c ./common/main.o
+ .debug_line    0x00000629       0x30 ./boot/boot2.o
+ .debug_line    0x00000659      0x3a8 ./boot/reset_hdr.o
+ .debug_line    0x00000a01      0x11d ./boot/vector_tbl.o
+ .debug_line    0x00000b1e       0x56 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_line    0x00000b74       0x4a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_line    0x00000bbe       0x55 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x00000c13      0x208 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_line    0x00000e1b       0x54 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_line    0x00000e6f       0x5e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_str      0x00000000     0x4ce9
+ .debug_str     0x00000000     0x4ce9 ./kernel/syslib.o
+                               0x442b (size before relaxing)
+ .debug_str     0x00004ce9     0x43f5 ./include/Button.o
+ .debug_str     0x00004ce9     0x4436 ./include/KedDriver.o
+ .debug_str     0x00004ce9     0x43fa ./include/Led.o
+ .debug_str     0x00004ce9     0x4456 ./common/main.o
+ .debug_str     0x00004ce9     0x2d20 ./boot/boot2.o
+ .debug_str     0x00004ce9     0x4552 ./boot/reset_hdr.o
+ .debug_str     0x00004ce9     0x4407 ./boot/vector_tbl.o
+ .debug_str     0x00004ce9      0x155 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_str     0x00004ce9      0x156 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_str     0x00004ce9      0x14b C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_str     0x00004ce9      0x70e C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_str     0x00004ce9      0x13a C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_str     0x00004ce9      0x143 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_frame    0x00000000      0x3e0
+ .debug_frame   0x00000000       0x8c ./kernel/syslib.o
+ .debug_frame   0x0000008c       0x4c ./include/Button.o
+ .debug_frame   0x000000d8       0x68 ./include/Led.o
+ .debug_frame   0x00000140       0x6c ./common/main.o
+ .debug_frame   0x000001ac      0x1ac ./boot/reset_hdr.o
+ .debug_frame   0x00000358       0x2c ./boot/vector_tbl.o
+ .debug_frame   0x00000384       0x20 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x000003a4       0x3c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_line_str
+                0x00000000      0x138
+ .debug_line_str
+                0x00000000      0x138 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                                0x12c (size before relaxing)
+ .debug_line_str
+                0x00000138      0x12c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_line_str
+                0x00000138      0x12c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x00000138      0x12c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_line_str
+                0x00000138      0x12c C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_loclists
+                0x00000000      0x2dc
+ .debug_loclists
+                0x00000000      0x2dc C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_rnglists
+                0x00000000       0x14
+ .debug_rnglists
+                0x00000000       0x14 C:/EmbDevTools/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)

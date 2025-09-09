@@ -35,7 +35,7 @@ void vdg_ledmodl_nineledon(void)
     out_w(GPIO_OUT_SET, (1 << 9));
 }
 
-void vdg_ledmodl_nineledon(void)
+void vdg_ledmodl_nineledoff(void)
 {
     out_w(GPIO_OUT_CLR, (1 << 9));
 }

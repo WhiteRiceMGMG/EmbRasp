@@ -7,7 +7,7 @@ typedef struct
     void (*Off)(void);
 } LedDriver;
 
-void vdg_ledmodl_ledledon(void);
+void vdg_ledmodl_redledon(void);
 void vdg_ledmodl_blueledon(void);
 void vdg_ledmodl_greenledon(void);
 void vdg_ledmodl_yellowledon(void);

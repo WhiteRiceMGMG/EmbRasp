@@ -5,7 +5,7 @@
 アクチュエータ稼働確認用スイッチ
 ***********************************/
 
-#include "Button.h"
+#include "button.h"
 #include "kedknl.h"
 
 u2 u2g_btnmodl_igswonoff(void)

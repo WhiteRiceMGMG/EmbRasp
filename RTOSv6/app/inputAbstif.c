@@ -10,23 +10,26 @@ enum
 
 void vdg_inputAbstif_eventFlag(void);
 static  void vdg_eventFlag(void);
-
+void vdg_inputAbst_button(void);
 
 
 void vdg_inputAbstif_eventFlag(void)
 {
-    vdg_eventFlag();
+    vdg_inputAbst_igsw();
+    vdg_input
 }
 
-static void vdg_eventFlag(void)
+
+// bool使って０か１を返したい
+void vdg_inputAbst_igsw(void)
 {
-
+    if(Ked.IgSw.Push())
+    {
+        setEventFlag(INPUT_BUTTON_IGSW);
+    }
 }
 
-static void vds_inputAbst_button(void)
-{
-    
-}
+
 
 
 

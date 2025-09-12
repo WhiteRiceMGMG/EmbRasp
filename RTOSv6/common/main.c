@@ -1,4 +1,5 @@
-#include <kedknl.h>
+ #include <kedknl.h>
+ #include "../include/kedknl.h"
 
 static void delay_ms( UINT ms)
 {

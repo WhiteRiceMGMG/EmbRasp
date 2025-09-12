@@ -48,6 +48,14 @@ int main(void)
         delay_ms(50);
 
     }
+
+    while(1)
+    {
+        vdg_inputAbstif_eventFlag();
+        vdg_appAbstif_eventFlag();
+        vdg_outputAbstif_eventFlag();
+        delay_ms(50);
+    }
     return 0;
 }
 

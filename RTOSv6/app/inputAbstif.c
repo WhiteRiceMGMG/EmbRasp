@@ -2,10 +2,10 @@
 
 enum 
 {
-    INPUT_BUTTON_IGSW    = 0 >> 1,
-    INPUT_BUTTON_DRVSWUP = 1 >> 1,
-    INPUT_BUTTON_DRVSWDW = 2 >> 1,
-    INPUT_BUTTON_CONFSW  = 3 >> 1
+    INPUT_BUTTON_IGSW    = 1 << 0,
+    INPUT_BUTTON_DRVSWUP = 1 << 1,
+    INPUT_BUTTON_DRVSWDW = 1 << 2,
+    INPUT_BUTTON_CONFSW  = 1 << 3
 }
 
 
@@ -30,7 +30,23 @@ void vdg_inputAbstif_eventFlag(void)
     vds_inputAbst_confsw();
 }
 
-
+/*appからコールされ，フラグをチェックする．*/
+_Bool vdg_inputAbstif_igswPush(void)
+{
+    return checkEvent(INPUT_BUTTON_IGSW);
+}
+_Bool vdg_inputAbstif_drvswupPush(void)
+{
+    return checkEvent(INPUT_BUTTON_DRVSWUP);
+}
+_Bool vdg_inputAbstif_drvswdwPush(void)
+{
+    return checkEvent(INPUT_BUTTON_DRVSWDW);
+}
+_Bool vdg_inputAbstif_confswPush(void)
+{
+    return checkEvent(INPUT_BUTTON_CONFSW);
+}
 
 /*入力に応じてイベントフラグを立てる */
 static void vds_inputAbst_igsw(void)

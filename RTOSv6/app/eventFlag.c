@@ -25,3 +25,8 @@ _Bool checkEventFlag(u16 event)
     }
     return false;
 }
+
+_Bool peekEventFlag(u16 event)
+{
+    return (eventFlag.flags & event) != 0;
+}

@@ -30,7 +30,9 @@ void vdg_inputAbstif_eventFlag(void)
     vds_inputAbst_confsw();
 }
 
-/*appからコールされ，フラグをチェックする．*/
+/******************************************** */
+/*appからコールされ，フラグをチェックする．      */
+/******************************************** */
 _Bool vdg_inputAbstif_igswPush(void)
 {
     return checkEvent(INPUT_BUTTON_IGSW);

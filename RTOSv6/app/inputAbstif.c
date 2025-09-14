@@ -11,15 +11,17 @@ enum
 
 
 void vdg_inputAbstif_eventFlag(void);
-static  void vdg_eventFlag(void);
-void vdg_inputAbst_button(void);
+_Bool vdg_inputAbstif_igswPush(void);
+_Bool vdg_inputAbstif_drvswupPush(void);
+_Bool vdg_inputAbstif_drvswdwPush(void);
+_Bool vdg_inputAbstif_confswPush(void);
 
 static void vds_inputAbst_igsw(void);
 static void vds_inputAbst_devswup(void);
 static void vds_inputAbst_drvswdw(void);
 static void vds_inputAbst_confsw(void);
 
-
+/*この関数がMAINLOOPから周期的にコールを受ける．*/
 void vdg_inputAbstif_eventFlag(void)
 {
     vds_inputAbst_igsw();
@@ -30,6 +32,7 @@ void vdg_inputAbstif_eventFlag(void)
 
 
 
+/*入力に応じてイベントフラグを立てる */
 static void vds_inputAbst_igsw(void)
 {
     if(Ked.IgSw.Push())

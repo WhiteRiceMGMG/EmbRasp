@@ -8,6 +8,12 @@ enum
     INPUT_BUTTON_CONFSW
 }
 
+typedef enum 
+{
+    false = 0;,
+    true  = 1
+} Bool;
+
 void vdg_inputAbstif_eventFlag(void);
 static  void vdg_eventFlag(void);
 void vdg_inputAbst_button(void);
@@ -20,12 +26,36 @@ void vdg_inputAbstif_eventFlag(void)
 }
 
 
-// bool使って０か１を返したい
-void vdg_inputAbst_igsw(void)
+
+static void vds_inputAbst_igsw(void)
 {
     if(Ked.IgSw.Push())
     {
         setEventFlag(INPUT_BUTTON_IGSW);
+    }
+}
+
+static void vds_inputAbst_drvswup(void)
+{
+    if(Ked.UpSw.Push())
+    {
+        setEventFlag(INPUT_BUTTON_DRVSWUP);
+    }
+}
+
+static void vds_inputAbst_drvswdw(void)
+{
+    if(Ked.DwSw.Push())
+    {
+        setEventFlag(INPUUT_BUTTON_DRVSWDW);
+    }
+}
+
+static void vds_inputAbst_confsw(void)
+{
+    if(Ked.ConfSw.Push())
+    {
+        setEventFlag(INPUT_BUTTON_CONFSW);
     }
 }
 

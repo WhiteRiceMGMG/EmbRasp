@@ -2,4 +2,11 @@
 /*イベントフラグ設定ヘッダーファイル             */
 /******************************************** */
 
+#ifndef EVENT_FLAG_H
+#define EVENT_FLAG_H
+
+typedef struct
+{
+    u16 flags;
+} EventFlag_t;
 

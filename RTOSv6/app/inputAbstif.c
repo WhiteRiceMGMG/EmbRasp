@@ -8,11 +8,7 @@ enum
     INPUT_BUTTON_CONFSW
 }
 
-typedef enum 
-{
-    false = 0;,
-    true  = 1
-} Bool;
+
 
 void vdg_inputAbstif_eventFlag(void);
 static  void vdg_eventFlag(void);

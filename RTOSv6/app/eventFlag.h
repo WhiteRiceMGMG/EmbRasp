@@ -10,3 +10,11 @@ typedef struct
     u16 flags;
 } EventFlag_t;
 
+/******************************************** */
+/*外部公開用API                                */
+/******************************************** */
+
+void initialEventFlag(void);
+void setEventFlag(void);
+
+

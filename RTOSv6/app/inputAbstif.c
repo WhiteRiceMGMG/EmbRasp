@@ -10,7 +10,7 @@ enum
 
 
 
-void vdg_inputAbstif_eventFlag(void);
+void vdg_inputAbstif_calledMainloop(void);
 _Bool vdg_inputAbstif_igswPush(void);
 _Bool vdg_inputAbstif_drvswupPush(void);
 _Bool vdg_inputAbstif_drvswdwPush(void);
@@ -25,7 +25,7 @@ static void vds_inputAbst_confsw(void);
 /*この関数がMAINLOOPから周期的にコールを受ける．  */
 /******************************************** */
 
-void vdg_inputAbstif_eventFlag(void)
+void vdg_inputAbstif_calledMailoop(void)
 {
     vds_inputAbst_igsw();
     vds_inputAbst_drvswup();

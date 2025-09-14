@@ -21,7 +21,10 @@ static void vds_inputAbst_devswup(void);
 static void vds_inputAbst_drvswdw(void);
 static void vds_inputAbst_confsw(void);
 
-/*この関数がMAINLOOPから周期的にコールを受ける．*/
+/******************************************** */
+/*この関数がMAINLOOPから周期的にコールを受ける．  */
+/******************************************** */
+
 void vdg_inputAbstif_eventFlag(void)
 {
     vds_inputAbst_igsw();

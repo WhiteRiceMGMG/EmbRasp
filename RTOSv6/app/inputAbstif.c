@@ -47,8 +47,9 @@ _Bool vdg_inputAbstif_confswPush(void)
 {
     return checkEvent(INPUT_BUTTON_CONFSW);
 }
-
-/*入力に応じてイベントフラグを立てる */
+/******************************************** */
+/*入力に応じてイベントフラグを立てる             */
+/******************************************** */
 static void vds_inputAbst_igsw(void)
 {
     if(Ked.IgSw.Push())

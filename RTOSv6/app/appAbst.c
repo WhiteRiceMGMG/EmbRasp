@@ -1,6 +1,6 @@
 //インテリジェンス持たせる
 
-void vdg_appAbstif_calledMainloop(void)
+void vdg_appAbstif_mainloop(void)
 {
 
 }

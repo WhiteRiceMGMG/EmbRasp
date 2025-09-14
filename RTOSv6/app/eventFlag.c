@@ -2,6 +2,8 @@
 /*イベントフラグ設定ファイル                    */
 /******************************************** */
 
+/*多分return falseとかするためにdefineがいる*/
+
 #include "eventFlag.h"
 
 static EventFlag_t eventFlag;

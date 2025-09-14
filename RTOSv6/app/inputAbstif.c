@@ -2,10 +2,10 @@
 
 enum 
 {
-    INPUT_BUTTON_IGSW,
-    INPUT_BUTTON_DRVSWUP,
-    INPUT_BUTTON_DRVSWDW,
-    INPUT_BUTTON_CONFSW
+    INPUT_BUTTON_IGSW    = 0 >> 1,
+    INPUT_BUTTON_DRVSWUP = 1 >> 1,
+    INPUT_BUTTON_DRVSWDW = 2 >> 1,
+    INPUT_BUTTON_CONFSW  = 3 >> 1
 }
 
 
@@ -14,11 +14,18 @@ void vdg_inputAbstif_eventFlag(void);
 static  void vdg_eventFlag(void);
 void vdg_inputAbst_button(void);
 
+static void vds_inputAbst_igsw(void);
+static void vds_inputAbst_devswup(void);
+static void vds_inputAbst_drvswdw(void);
+static void vds_inputAbst_confsw(void);
+
 
 void vdg_inputAbstif_eventFlag(void)
 {
-    vdg_inputAbst_igsw();
-    vdg_input
+    vds_inputAbst_igsw();
+    vds_inputAbst_drvswup();
+    vds_inputAbst_drvswdw();
+    vds_inputAbst_confsw();
 }
 
 

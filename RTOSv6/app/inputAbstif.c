@@ -10,7 +10,7 @@ enum
 
 
 
-void vdg_inputAbstif_calledMainloop(void);
+void vdg_inputAbstif_mainloop(void);
 _Bool vdg_inputAbstif_igswPush(void);
 _Bool vdg_inputAbstif_drvswupPush(void);
 _Bool vdg_inputAbstif_drvswdwPush(void);

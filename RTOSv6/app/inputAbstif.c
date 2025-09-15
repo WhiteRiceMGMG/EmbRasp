@@ -6,7 +6,7 @@ enum
     INPUT_BUTTON_DRVSWUP = 1 << 1,
     INPUT_BUTTON_DRVSWDW = 1 << 2,
     INPUT_BUTTON_CONFSW  = 1 << 3
-}
+};
 
 
 

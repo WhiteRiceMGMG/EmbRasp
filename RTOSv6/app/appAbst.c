@@ -26,9 +26,6 @@ static void vds_appAbst_discrete(void)
 
 
 
-う～ン，どういう構造にすればいいかね
-メインからコールされるのが連続と非連続のやつ，？
-
 
 
 

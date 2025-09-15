@@ -28,17 +28,13 @@ static _Bool vds_kedigsw_pushed(void)
     return vdg_inputAbstif_igswPush();
 }
 
-
-
-
-_Bool vdg_inputAbstif_igswPush(void)
+static _Bool vds_keddrvupsw_pushed(void);
 {
-    return checkEvent(INPUT_BUTTON_IGSW);
+    return vdg_inputAbstif_drvswupPush();
 }
-_Bool vdg_inputAbstif_drvswupPush(void)
-{
-    return checkEvent(INPUT_BUTTON_DRVSWUP);
-}
+
+
+
 _Bool vdg_inputAbstif_drvswdwPush(void)
 {
     return checkEvent(INPUT_BUTTON_DRVSWDW);

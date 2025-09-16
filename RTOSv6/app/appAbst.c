@@ -30,7 +30,10 @@ static void vds_appAbst_discrete(void)
         vdg_outputAbstif_drvupledon();
     }
 
-    if
+    if(vds_keddrvdwsw_pushed())
+    {
+        vdg_outputAbstif_drvdwledon();
+    }
 }
 
 static _Bool vds_kedigsw_pushed(void)

@@ -20,7 +20,17 @@ static void vds_appAbst_proceeded(void)
 /*離散系処理*/
 static void vds_appAbst_discrete(void)
 {
+    if(vds_kedigsw_pushed())
+    {
+        vdg_outputAbstif_igledon();
+    }
 
+    if(vds_keddrvupsw_pushed())
+    {
+        vdg_outputAbstif_drvupledon();
+    }
+
+    if
 }
 
 static _Bool vds_kedigsw_pushed(void)
@@ -33,16 +43,17 @@ static _Bool vds_keddrvupsw_pushed(void);
     return vdg_inputAbstif_drvswupPush();
 }
 
+static _Bool vds_keddrvdwsw_pushed(void)
+{
+    return vdg_inputAbstif_drvswdwPush();
+}
+
+static _Bool vds_kedconfsw_pushed(void)
+{
+    return vdg_inputAbstif_confswPush();
+}
 
 
-_Bool vdg_inputAbstif_drvswdwPush(void)
-{
-    return checkEvent(INPUT_BUTTON_DRVSWDW);
-}
-_Bool vdg_inputAbstif_confswPush(void)
-{
-    return checkEvent(INPUT_BUTTON_CONFSW);
-}
 
 
 

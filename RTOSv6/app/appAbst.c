@@ -4,6 +4,11 @@ void vdg_appAbstif_mainloop(void);
 static void vds_appAbst_proceeded(void);
 static void vds_appAbst_discrete(void);
 
+void vdg_outputAbstif_igledon(void);
+void vdg_outputAbstif_drvupledon(void);
+void vdg_outputAbstif_drvdwledon(void);
+void vdg_outputAbstif_confledon(void);
+
 
 void vdg_appAbstif_mainloop(void)
 {

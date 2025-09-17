@@ -14,7 +14,7 @@ void vdg_appAbstif_mainloop(void)
 /*連続系処理*/
 static void vds_appAbst_proceeded(void)
 {
-    
+    ;
 }
 
 /*離散系処理*/

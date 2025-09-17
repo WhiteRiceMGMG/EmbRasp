@@ -37,7 +37,7 @@ static void vds_appAbst_discrete(void)
 
     if(vds_kedconfsw_pushed())
     {
-        
+        vdg_outputAbstif_confledon();
     }
 }
 

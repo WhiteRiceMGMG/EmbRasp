@@ -34,6 +34,11 @@ static void vds_appAbst_discrete(void)
     {
         vdg_outputAbstif_drvdwledon();
     }
+
+    if(vds_kedconfsw_pushed())
+    {
+        
+    }
 }
 
 static _Bool vds_kedigsw_pushed(void)

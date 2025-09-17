@@ -41,6 +41,8 @@ static void vds_appAbst_discrete(void)
     }
 }
 
+
+
 static _Bool vds_kedigsw_pushed(void)
 {
     return vdg_inputAbstif_igswPush();

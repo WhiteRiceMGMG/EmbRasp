@@ -10,6 +10,7 @@ void vdg_outputAbstif_drvdwledon(void);
 void vdg_outputAbstif_confledon(void);
 
 
+
 void vdg_appAbstif_mainloop(void)
 {
     vds_appAbst_proceeded();

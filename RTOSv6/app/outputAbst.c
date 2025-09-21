@@ -2,22 +2,33 @@
 //
 // あいうえお
 
+
+
 vdg_outputAbstif_igledon();
-    }
 
-    if(vds_keddrvupsw_pushed())
-    {
-        vdg_outputAbstif_drvupledon();
-    }
+vdg_outputAbstif_drvupledon();
 
-    if(vds_keddrvdwsw_pushed())
-    {
-        vdg_outputAbstif_drvdwledon();
-    }
+vdg_outputAbstif_drvdwledon();
 
-    if(vds_kedconfsw_pushed())
-    {
-        vdg_outputAbstif_confledon();
-    }
+vdg_outputAbstif_confledon();
 
 
+void vdg_outputAbstif_igledon(void)
+{
+
+}
+
+void vdg_outputAbstif_drvupledon(void)
+{
+
+}
+
+void vdg_outputAbstif_drvdwledon(void)
+{
+
+}
+
+void vdg_outputAbstif_confledon(void)
+{
+    
+}

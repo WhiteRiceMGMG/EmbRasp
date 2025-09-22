@@ -32,3 +32,5 @@ void vdg_outputAbstif_confledon(void)
 {
     
 }
+
+//goo

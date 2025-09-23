@@ -2,15 +2,7 @@
 //
 // あいうえお
 
-
-
-vdg_outputAbstif_igledon();
-
-vdg_outputAbstif_drvupledon();
-
-vdg_outputAbstif_drvdwledon();
-
-vdg_outputAbstif_confledon();
+sss
 
 
 void vdg_outputAbstif_igledon(void)
@@ -30,8 +22,5 @@ void vdg_outputAbstif_drvdwledon(void)
 
 void vdg_outputAbstif_confledon(void)
 {
-    
-}
 
-//goo
-//眠いンゴね
+}

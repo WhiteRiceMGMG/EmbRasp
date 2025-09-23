@@ -34,3 +34,4 @@ void vdg_outputAbstif_confledon(void)
 }
 
 //goo
+//眠いンゴね

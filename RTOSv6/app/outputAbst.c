@@ -2,7 +2,6 @@
 //
 // あいうえお
 
-sss
 
 
 void vdg_outputAbstif_igledon(void)

@@ -54,7 +54,9 @@ static void vds_appAbst_discrete(void)
 }
 
 
-
+/******************************************** */
+/*入力フラグを確認し，２値を返す                 */
+/******************************************** */
 static _Bool vds_kedigsw_pushed(void)
 {
     return vdg_inputAbstif_igswPush();

@@ -15,22 +15,22 @@ void initialEventFlag(void)
     outputEventFlag.flags  = 0;
 }
 
-void setEventFlag(u16 event)
+void setEventFlag(EventFlag_t *ef, u16 event)
 {
-    eventFlag.flags |= event;
+    ef->flags |= event;
 }
 
-_Bool checkEventFlag(u16 event)
+_Bool checkEventFlag(EventFlag_t *ef, u16 event)
 {
     if(eventFlag.flags & event)
     {
-        eventFlags.flags &= ~event;
+        ef->flags &= ~event;
         return true;
     }
     return false;
 }
 
-_Bool peekEventFlag(u16 event)
+_Bool peekEventFlag(EventFlag_t *ef, u16 event)
 {
-    return (eventFlag.flags & event) != 0;
+    return (ef->flags & event) != 0;
 }

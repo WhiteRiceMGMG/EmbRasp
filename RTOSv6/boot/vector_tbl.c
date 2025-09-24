@@ -1,27 +1,24 @@
-/*
- * vector_tbl.c
- *
- *  Created on: 2025/07/24
- *      Author: shion
- */
-/*
- *** Try Kernel
- *      例外ベクターテーブル
-*/
+/******************************************** */
+/*例外ベクタの定義                             */
+/******************************************** */
 
 #include <typedef.h>
 #include <sysdef.h>
 #include <syslib.h>
 #include <knldef.h>
 
-/* デフォルトハンドラ */
+/******************************************** */
+/*デフォルトハンドラ                            */
+/******************************************** */
 extern void dispatch_entry(void);
 void Default_Handler(void)
 {
     while(1);
 }
 
-/* 例外ベクターテーブル */
+/******************************************** */
+/*例外ベクタテーブル                           */
+/******************************************** */
 void (* const vector_tbl[])() __attribute__((section(".vector"))) = {
     (void(*)()) (INITIAL_SP),   // 0: Top of Stack
     Reset_Handler,              // 1: Reset

@@ -1,3 +1,7 @@
+ /******************************************** */
+/*MAINLOOP                                     */
+/********************************************  */
+ 
  #include <kedknl.h>
  #include "../include/kedknl.h"
 
@@ -15,6 +19,7 @@ static void delay_ms( UINT ms)
 
 int main(void)
 {
+    /*
     while(1)
     {
         if(Ked.IgSw.Push())  
@@ -48,6 +53,7 @@ int main(void)
         delay_ms(50);
 
     }
+    */
 
     while(1)
     {

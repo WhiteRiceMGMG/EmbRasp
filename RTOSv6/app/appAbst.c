@@ -12,8 +12,8 @@ void vdg_outputAbstif_drvdwledon(void);
 void vdg_outputAbstif_confledon(void);
 
 
-
-void vdg_appAbstif_mainloop(void)
+void
+vdg_appAbstif_mainloop(void)
 {
     vds_appAbst_proceeded();
     vds_appAbst_discrete();
@@ -22,7 +22,8 @@ void vdg_appAbstif_mainloop(void)
 /******************************************** */
 /*連続系処理                                   */
 /******************************************** */
-static void vds_appAbst_proceeded(void)
+static void 
+vds_appAbst_proceeded(void)
 {
     ;
 }
@@ -30,7 +31,8 @@ static void vds_appAbst_proceeded(void)
 /******************************************** */
 /*離散系処理                                   */
 /******************************************** */
-static void vds_appAbst_discrete(void)
+static void 
+vds_appAbst_discrete(void)
 {
     if(vds_kedigsw_pushed())
     {
@@ -57,22 +59,27 @@ static void vds_appAbst_discrete(void)
 /******************************************** */
 /*入力フラグを確認し，２値を返す                 */
 /******************************************** */
-static _Bool vds_kedigsw_pushed(void)
+
+static _Bool
+vds_kedigsw_pushed(void)
 {
     return vdg_inputAbstif_igswPush();
 }
 
-static _Bool vds_keddrvupsw_pushed(void);
+static _Bool
+vds_keddrvupsw_pushed(void);
 {
     return vdg_inputAbstif_drvswupPush();
 }
 
-static _Bool vds_keddrvdwsw_pushed(void)
+static _Bool
+vds_keddrvdwsw_pushed(void)
 {
     return vdg_inputAbstif_drvswdwPush();
 }
 
-static _Bool vds_kedconfsw_pushed(void)
+static _Bool
+vds_kedconfsw_pushed(void)
 {
     return vdg_inputAbstif_confswPush();
 }

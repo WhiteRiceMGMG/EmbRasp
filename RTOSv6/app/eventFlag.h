@@ -15,9 +15,9 @@ typedef struct
 /******************************************** */
 
 void initialEventFlag(void);
-void setEventFlag(u16 event);
-_Bool checkEventFlag(u16 event);
-_Bool peekEventFlag(u16 event);
+void setEventFlag(EventFlag_t *ef, u16 event);
+_Bool checkEventFlag(EventFlag_t *ef, u16 event);
+_Bool peekEventFlag(EventFlag_t *ef, u16 event);
 
 #endif
 

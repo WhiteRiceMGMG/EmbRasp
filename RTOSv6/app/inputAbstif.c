@@ -25,7 +25,8 @@ static void vds_inputAbst_confsw(void);
 /*この関数がMAINLOOPから周期的にコールを受ける．  */
 /******************************************** */
 
-void vdg_inputAbstif_calledMailoop(void)
+void 
+vdg_inputAbstif_calledMailoop(void)
 {
     vds_inputAbst_igsw();
     vds_inputAbst_drvswup();
@@ -36,26 +37,35 @@ void vdg_inputAbstif_calledMailoop(void)
 /******************************************** */
 /*appからコールされ，フラグをチェックする．      */
 /******************************************** */
-_Bool vdg_inputAbstif_igswPush(void)
+_Bool 
+vdg_inputAbstif_igswPush(void)
 {
     return checkEvent(INPUT_EVEMT_FLAG, INPUT_BUTTON_IGSW);
 }
-_Bool vdg_inputAbstif_drvswupPush(void)
+
+_Bool 
+vdg_inputAbstif_drvswupPush(void)
 {
     return checkEvent(INPUT_EVEMT_FLAG, INPUT_BUTTON_DRVSWUP);
 }
-_Bool vdg_inputAbstif_drvswdwPush(void)
+
+_Bool 
+vdg_inputAbstif_drvswdwPush(void)
 {
     return checkEvent(INPUT_EVEMT_FLAG, INPUT_BUTTON_DRVSWDW);
 }
-_Bool vdg_inputAbstif_confswPush(void)
+
+_Bool 
+vdg_inputAbstif_confswPush(void)
 {
     return checkEvent(INPUT_EVEMT_FLAG, INPUT_BUTTON_CONFSW);
 }
 /******************************************** */
 /*入力に応じてイベントフラグを立てる             */
 /******************************************** */
-static void vds_inputAbst_igsw(void)
+
+static void
+vds_inputAbst_igsw(void)
 {
     if(Ked.IgSw.Push())
     {
@@ -63,7 +73,8 @@ static void vds_inputAbst_igsw(void)
     }
 }
 
-static void vds_inputAbst_drvswup(void)
+static void
+vds_inputAbst_drvswup(void)
 {
     if(Ked.UpSw.Push())
     {
@@ -71,7 +82,8 @@ static void vds_inputAbst_drvswup(void)
     }
 }
 
-static void vds_inputAbst_drvswdw(void)
+static void
+vds_inputAbst_drvswdw(void)
 {
     if(Ked.DwSw.Push())
     {
@@ -79,7 +91,8 @@ static void vds_inputAbst_drvswdw(void)
     }
 }
 
-static void vds_inputAbst_confsw(void)
+static void
+vds_inputAbst_confsw(void)
 {
     if(Ked.ConfSw.Push())
     {

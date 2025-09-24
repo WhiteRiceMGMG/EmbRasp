@@ -6,11 +6,13 @@
 
 #include "eventFlag.h"
 
-static EventFlag_t eventFlag;
+static EventFlag_t inputEventFlag;
+static EventFlag_t outputEventFlag;
 
 void initialEventFlag(void)
 {
-    eventFlag.flags = 0;
+    inputEventFlag.flags = 0;
+    outputEventFlag.flags  = 0;
 }
 
 void setEventFlag(u16 event)

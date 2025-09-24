@@ -1,32 +1,30 @@
-/*
- * reset_hdr.c
- *
- *  Created on: 2025/07/24
- *      Author: shion
- */
-
-/*
- *** Try Kernel
- *      リセットハンドラ
-*/
+/******************************************** */
+/*リセットハンドラ                             */
+/******************************************** */
 
 #include <typedef.h>
 #include <sysdef.h>
 #include <syslib.h>
 #include <knldef.h>
 
-/* メモリセクションのアドレス変数 */
+/******************************************** */
+/*メモリアドレスの初期化                        */
+/******************************************** */
 extern const void *__data_org;
 extern const void *__data_start;
 extern const void *__data_end;
 extern const void *__bss_start;
 extern const void *__bss_end;
 
-/*** クロックの初期化 ***/
+/******************************************** */
+/*クロックの初期化                             */
+/******************************************** */
 
 #define XOSC_STARTUP_DELAY	((XOSC_KHz + 128) / 256)
 
-/* PLLの初期化 */
+/******************************************** */
+/*PLLの初期化                                  */
+/******************************************** */
 static void init_pll(UW pll, UINT refdiv, UINT vco_freq, UINT post_div1, UINT post_div2)
 {
     UW  ref_mhz, fbdiv, pdiv;
@@ -50,7 +48,9 @@ static void init_pll(UW pll, UINT refdiv, UINT vco_freq, UINT post_div1, UINT po
     clr_w(pll+PLL_PWR, PLL_PWR_POSTDIVPD);
 }
 
-/* 周辺クロックの設定 */
+/******************************************** */
+/*周辺機器の初期化イ                            */
+/******************************************** */
 static void clock_config(UINT clock_kind, UW auxsrc, UW src_freq, UW freq)
 {
     UW  clock;
@@ -69,7 +69,9 @@ static void clock_config(UINT clock_kind, UW auxsrc, UW src_freq, UW freq)
     out_w(clock+CLK_x_DIV, div);
 }
 
-/* クロックの初期化 */
+/******************************************** */
+/*クロックの初期化                             */
+/******************************************** */
 static void init_clock(void)
 {
     UW  div;
@@ -132,7 +134,9 @@ static void init_clock(void)
     clock_config(CLK_KIND_PERI, 0, 125 * MHz, 125 * MHz);
 }
 
-/*** ペリフェラルの有効化 ***/
+/******************************************** */
+/*ペリフェラルを有効化する                       */
+/******************************************** */
 
 static void init_peri(void)
 {
@@ -187,7 +191,9 @@ static void init_peri(void)
     out_w(GPIO_CTRL(1), 2);         /* P1端子 UART0-RX */
 }
 
-/*** メモリ・セクションの初期化 ***/
+/******************************************** */
+/*メモリセクションの初期化                       */
+/******************************************** */
 
 static void init_section(void)
 {
@@ -208,7 +214,9 @@ static void init_section(void)
     }
 }
 
-/*** システムタイマの初期化 ***/
+/******************************************** */
+/*システムタイマの初期化                        */
+/******************************************** */
 
 static void init_systim(void)
 {
@@ -218,7 +226,9 @@ static void init_systim(void)
     out_w(SYST_CSR, SYST_CSR_CLKSOURCE | SYST_CSR_ENABLE);  /* SysTick動作開始 */
 }
 
-/*** リセットハンドラ ****/
+/******************************************** */
+/*リセットハンドラの初期化                      */
+/******************************************** */
 
 void Reset_Handler(void)
 {

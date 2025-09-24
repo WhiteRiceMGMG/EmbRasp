@@ -1,4 +1,6 @@
-//インテリジェンス持たせる
+/******************************************** */
+/*周期的に入力を確認しに行き，演算処理を行い出力へ */
+/******************************************** */
 
 void vdg_appAbstif_mainloop(void);
 static void vds_appAbst_proceeded(void);
@@ -17,13 +19,17 @@ void vdg_appAbstif_mainloop(void)
     vds_appAbst_discrete();
 }
 
-/*連続系処理*/
+/******************************************** */
+/*連続系処理                                   */
+/******************************************** */
 static void vds_appAbst_proceeded(void)
 {
     ;
 }
 
-/*離散系処理*/
+/******************************************** */
+/*離散系処理                                   */
+/******************************************** */
 static void vds_appAbst_discrete(void)
 {
     if(vds_kedigsw_pushed())

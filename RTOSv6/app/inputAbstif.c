@@ -38,19 +38,19 @@ void vdg_inputAbstif_calledMailoop(void)
 /******************************************** */
 _Bool vdg_inputAbstif_igswPush(void)
 {
-    return checkEvent(INPUT_BUTTON_IGSW);
+    return checkEvent(INPUT_EVEMT_FLAG, INPUT_BUTTON_IGSW);
 }
 _Bool vdg_inputAbstif_drvswupPush(void)
 {
-    return checkEvent(INPUT_BUTTON_DRVSWUP);
+    return checkEvent(INPUT_EVEMT_FLAG, INPUT_BUTTON_DRVSWUP);
 }
 _Bool vdg_inputAbstif_drvswdwPush(void)
 {
-    return checkEvent(INPUT_BUTTON_DRVSWDW);
+    return checkEvent(INPUT_EVEMT_FLAG, INPUT_BUTTON_DRVSWDW);
 }
 _Bool vdg_inputAbstif_confswPush(void)
 {
-    return checkEvent(INPUT_BUTTON_CONFSW);
+    return checkEvent(INPUT_EVEMT_FLAG, INPUT_BUTTON_CONFSW);
 }
 /******************************************** */
 /*入力に応じてイベントフラグを立てる             */
@@ -59,7 +59,7 @@ static void vds_inputAbst_igsw(void)
 {
     if(Ked.IgSw.Push())
     {
-        setEventFlag(INPUT_BUTTON_IGSW);
+        setEventFlag(INPUT_EVEMT_FLAG, INPUT_BUTTON_IGSW);
     }
 }
 
@@ -67,7 +67,7 @@ static void vds_inputAbst_drvswup(void)
 {
     if(Ked.UpSw.Push())
     {
-        setEventFlag(INPUT_BUTTON_DRVSWUP);
+        setEventFlag(INPUT_EVEMT_FLAG, INPUT_BUTTON_DRVSWUP);
     }
 }
 
@@ -75,7 +75,7 @@ static void vds_inputAbst_drvswdw(void)
 {
     if(Ked.DwSw.Push())
     {
-        setEventFlag(INPUUT_BUTTON_DRVSWDW);
+        setEventFlag(INPUT_EVEMT_FLAG, INPUUT_BUTTON_DRVSWDW);
     }
 }
 
@@ -83,7 +83,7 @@ static void vds_inputAbst_confsw(void)
 {
     if(Ked.ConfSw.Push())
     {
-        setEventFlag(INPUT_BUTTON_CONFSW);
+        setEventFlag(INPUT_EVEMT_FLAG, INPUT_BUTTON_CONFSW);
     }
 }
 

@@ -24,7 +24,7 @@ static void vds_inputAbst_drvswdw(void);
 static void vds_inputAbst_confsw(void);
 
 /******************************************** */
-/*この関数がMAINLOOPから周期的にコールを受ける．  */
+/*この関数がMAINLOOPから周期的にコール！！！！！  */
 /******************************************** */
 
 void 
@@ -63,7 +63,7 @@ vdg_inputAbstif_confswPush(void)
     return checkEvent(INPUT_EVEMT_FLAG, INPUT_BUTTON_CONFSW);
 }
 /******************************************** */
-/*入力に応じてイベントフラグを立てる             */
+/*入力に応じてフラグを立てる             */
 /******************************************** */
 
 static void

@@ -67,4 +67,14 @@
 #kernel
 ##syslib.c
 
+.
+├── [module_name] 部品名
+│   ├── [edhitor-name]_[module_name].c コード作成者 + 部品名
+│   └── [edhitor-name]_[module_name].h コード作成者 + 部品名
+└── [module_name]if.h 外部公開関数/変数を記載．
 
+.
+├── igsw (イグニッションスイッチ)
+│   ├── ymt_igsw.h (yamamoto + igsw)
+│   └── ymt_igsw.c (yamamoto + igsw)
+└── igswif.h (igsw + "InterFace")
